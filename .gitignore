@@ -12,6 +12,8 @@
 
 # Xcode noise, after https://github.com/github/gitignore/blob/master/Objective-C.gitignore
 
+xcuserdata
+
 build/*
 
 *.pbxuser
