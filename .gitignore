@@ -25,3 +25,4 @@ profile
 # used to add version strings to *-Info.plist
 */*-Info-plist.h
 
+./geeklist.xcodeproj/project.xcworkspace/xcuserdata/loicsaintroch.xcuserdatad/UserInterfaceState.xcuserstate
