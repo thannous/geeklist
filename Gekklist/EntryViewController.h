@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EntryViewController.h
 //  Gekklist
 //
 //  Created by Kévin Mondésir on 18/05/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface EntryViewController : UIViewController
 
 @end

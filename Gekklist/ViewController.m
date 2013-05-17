@@ -25,5 +25,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	[self performSegueWithIdentifier:@"Facebook" sender:self];
+	
+}
+
 
 @end

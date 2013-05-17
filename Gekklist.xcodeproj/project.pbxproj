@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6F02611746F47F000A0DC7 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F02601746F47F000A0DC7 /* EntryViewController.m */; };
 		CEF99A911746E14400DC0598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A901746E14400DC0598 /* UIKit.framework */; };
 		CEF99A931746E14400DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
 		CEF99A951746E14400DC0598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A941746E14400DC0598 /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE6F025F1746F47F000A0DC7 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		CE6F02601746F47F000A0DC7 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
 		CEF99A8D1746E14400DC0598 /* Gekklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gekklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF99A901746E14400DC0598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEF99A921746E14400DC0598 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +132,8 @@
 				CEF99AAE1746E14500DC0598 /* ViewController.h */,
 				CEF99AAF1746E14500DC0598 /* ViewController.m */,
 				CEF99A971746E14400DC0598 /* Supporting Files */,
+				CE6F025F1746F47F000A0DC7 /* EntryViewController.h */,
+				CE6F02601746F47F000A0DC7 /* EntryViewController.m */,
 			);
 			path = Gekklist;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				CEF99A9D1746E14400DC0598 /* main.m in Sources */,
 				CEF99AA11746E14400DC0598 /* AppDelegate.m in Sources */,
 				CEF99AB01746E14500DC0598 /* ViewController.m in Sources */,
+				CE6F02611746F47F000A0DC7 /* EntryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +477,7 @@
 				CEF99ACA1746E14500DC0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEF99ACB1746E14500DC0598 /* Build configuration list for PBXNativeTarget "GekklistTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				CEF99ACD1746E14500DC0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
