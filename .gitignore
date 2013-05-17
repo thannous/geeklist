@@ -1,3 +1,4 @@
+
 # OS X noise
 .DS_Store
  
@@ -6,6 +7,7 @@
  
 # Xcode noise, after https://github.com/github/gitignore/blob/master/Objective-C.gitignore
 build/*
+
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -16,8 +18,7 @@ build/*
 !default.perspectivev3
 *.xcworkspace
 !default.xcworkspace
-xcuserdata
-.xcuserstate
+
 profile
 *.moved-aside
 *~.nib
@@ -25,4 +26,8 @@ profile
 # used to add version strings to *-Info.plist
 */*-Info-plist.h
 
-./geeklist.xcodeproj/project.xcworkspace/xcuserdata/loicsaintroch.xcuserdatad/UserInterfaceState.xcuserstate
+profile
+*.moved-aside
+DerivedData
+.idea/
+
