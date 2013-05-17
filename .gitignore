@@ -14,6 +14,8 @@
 
 ./Gekklist.xcodeproj/project.xcworkspace/xcuserdata/reborn95.xcuserdatad/UserInterfaceState.xcuserstate
 
+xcuserdata/
+
 build/*
 
 *.pbxuser
