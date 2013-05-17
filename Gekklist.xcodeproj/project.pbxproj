@@ -24,6 +24,7 @@
 		CEF99ABA1746E14500DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
 		CEF99AC21746E14500DC0598 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AC01746E14500DC0598 /* InfoPlist.strings */; };
 		CEF99AC51746E14500DC0598 /* GekklistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF99AC41746E14500DC0598 /* GekklistTests.m */; };
+		CEF99ACF1746EBDE00DC0598 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CEF99ACE1746EBDE00DC0598 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		CEF99AC11746E14500DC0598 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEF99AC31746E14500DC0598 /* GekklistTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GekklistTests.h; sourceTree = "<group>"; };
 		CEF99AC41746E14500DC0598 /* GekklistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GekklistTests.m; sourceTree = "<group>"; };
+		CEF99ACE1746EBDE00DC0598 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		CEF99A841746E14400DC0598 = {
 			isa = PBXGroup;
 			children = (
+				CEF99ACE1746EBDE00DC0598 /* .gitignore */,
 				CEF99A961746E14400DC0598 /* Gekklist */,
 				CEF99ABD1746E14500DC0598 /* GekklistTests */,
 				CEF99A8F1746E14400DC0598 /* Frameworks */,
@@ -240,6 +243,7 @@
 				CEF99AA71746E14500DC0598 /* Default-568h@2x.png in Resources */,
 				CEF99AAA1746E14500DC0598 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CEF99AAD1746E14500DC0598 /* MainStoryboard_iPad.storyboard in Resources */,
+				CEF99ACF1746EBDE00DC0598 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
