@@ -16,13 +16,14 @@
 {
 	[super viewDidLoad];
 	[scrollView scrollsToTop];
-	InfoMicro.backgroundColor=[UIColor colorWithRed:0.02 green:0.7 blue:0.3 alpha:1];;
+	InfoMicro.backgroundColor=[UIColor colorWithRed:0.02 green:0.7 blue:0.3 alpha:1];
+	[[self navigationController] setNavigationBarHidden:NO animated:YES];
 	//InfoMicro.backgroundColor=[[UIColor alloc]initWithPatternImage:[UIImage imageNamed:@"test copie.jpg"]];
 }
 - (void)viewWillAppear:(BOOL)animated
 {
 	[super viewWillAppear:animated];
-	
+	[[self navigationController] setNavigationBarHidden:NO animated:YES];
     // listen for keyboard hide/show notifications so we can properly adjust the table's height
 	[[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(keyboardWillShow:)
