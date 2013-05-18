@@ -65,5 +65,10 @@
 		
 	}
 }
+-(void)getInfo
+{
+	
+}
+
 
 @end

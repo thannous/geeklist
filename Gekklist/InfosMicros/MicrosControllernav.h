@@ -17,4 +17,5 @@
 @property (nonatomic,copy)NSMutableArray * lesgens;
 @property (readonly)int state;
 -(void)tapped:(id)sender;
+-(void)getInfo;
 @end

@@ -181,7 +181,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="aQ4-Pg-wCm">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.46030809053373245" green="0.90760869565217395" blue="0.36188731198739893" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.24768902011666591" green="0.72282608695652173" blue="0.174322116220156" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.17454066822422282" green="0.55434782608695654" blue="0.1017764645809781" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="dwW-b5-uee" kind="relationship" relationship="viewControllers" id="Mcq-dL-omN"/>
@@ -197,7 +198,7 @@
         <scene sceneID="hlr-e2-hc8">
             <objects>
                 <navigationController id="dwW-b5-uee" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="av1-Ui-5HV"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="list-view.png" id="av1-Ui-5HV"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MVb-dH-aL6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -216,32 +217,9 @@
     <resources>
         <image name="facebook.png" width="458" height="75"/>
         <image name="fond.png" width="640" height="960"/>
+        <image name="list-view.png" width="60" height="60"/>
         <image name="splash.png" width="640" height="960"/>
     </resources>
-    <classes>
-        <class className="DetailsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailsViewController.h"/>
-        </class>
-        <class className="EntryViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/EntryViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="bouton:"/>
-                <relationship kind="outlet" name="indicator" candidateClass="UIActivityIndicatorView"/>
-            </relationships>
-        </class>
-        <class className="MicrosControllernav" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MicrosControllernav.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tablevue" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

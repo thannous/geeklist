@@ -7,161 +7,202 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8E0A2EA1746D0DC00059C95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0A2E91746D0DC00059C95 /* UIKit.framework */; };
-		D8E0A2EC1746D0DC00059C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0A2EB1746D0DC00059C95 /* Foundation.framework */; };
-		D8E0A2EE1746D0DC00059C95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0A2ED1746D0DC00059C95 /* CoreGraphics.framework */; };
-		D8E0A2F41746D0DC00059C95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A2F21746D0DC00059C95 /* InfoPlist.strings */; };
-		D8E0A2F61746D0DC00059C95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E0A2F51746D0DC00059C95 /* main.m */; };
-		D8E0A2FA1746D0DC00059C95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E0A2F91746D0DC00059C95 /* AppDelegate.m */; };
-		D8E0A2FC1746D0DC00059C95 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A2FB1746D0DC00059C95 /* Default.png */; };
-		D8E0A2FE1746D0DC00059C95 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A2FD1746D0DC00059C95 /* Default@2x.png */; };
-		D8E0A3001746D0DC00059C95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A2FF1746D0DC00059C95 /* Default-568h@2x.png */; };
-		D8E0A3031746D0DC00059C95 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A3011746D0DC00059C95 /* MainStoryboard_iPhone.storyboard */; };
-		D8E0A3061746D0DC00059C95 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A3041746D0DC00059C95 /* MainStoryboard_iPad.storyboard */; };
-		D8E0A3091746D0DC00059C95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E0A3081746D0DC00059C95 /* ViewController.m */; };
-		D8E0A3111746D0DC00059C95 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0A3101746D0DC00059C95 /* SenTestingKit.framework */; };
-		D8E0A3121746D0DC00059C95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0A2E91746D0DC00059C95 /* UIKit.framework */; };
-		D8E0A3131746D0DC00059C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0A2EB1746D0DC00059C95 /* Foundation.framework */; };
-		D8E0A31B1746D0DC00059C95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A3191746D0DC00059C95 /* InfoPlist.strings */; };
-		D8E0A31E1746D0DC00059C95 /* geeklistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E0A31D1746D0DC00059C95 /* geeklistTests.m */; };
-		D8E0A3281746E9D400059C95 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A3271746E9D400059C95 /* .gitignore */; };
+		CE6F02611746F47F000A0DC7 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F02601746F47F000A0DC7 /* EntryViewController.m */; };
+		CE6F026817470481000A0DC7 /* MicrosControllernav.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F026717470481000A0DC7 /* MicrosControllernav.m */; };
+		CE6F026A17470532000A0DC7 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F026917470532000A0DC7 /* splash.png */; };
+		CE6F026D17470B94000A0DC7 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F026B17470B93000A0DC7 /* facebook.png */; };
+		CE6F026E17470B94000A0DC7 /* fond.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F026C17470B94000A0DC7 /* fond.png */; };
+		CE6F0271174723BE000A0DC7 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F0270174723BE000A0DC7 /* DetailsViewController.m */; };
+		CE6F02751747494D000A0DC7 /* list-view.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F02721747494D000A0DC7 /* list-view.png */; };
+		CE6F02761747494D000A0DC7 /* location-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F02731747494D000A0DC7 /* location-pin.png */; };
+		CE6F02771747494D000A0DC7 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F02741747494D000A0DC7 /* user.png */; };
+		CEF99A911746E14400DC0598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A901746E14400DC0598 /* UIKit.framework */; };
+		CEF99A931746E14400DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
+		CEF99A951746E14400DC0598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A941746E14400DC0598 /* CoreGraphics.framework */; };
+		CEF99A9B1746E14400DC0598 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF99A991746E14400DC0598 /* InfoPlist.strings */; };
+		CEF99A9D1746E14400DC0598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF99A9C1746E14400DC0598 /* main.m */; };
+		CEF99AA11746E14400DC0598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF99AA01746E14400DC0598 /* AppDelegate.m */; };
+		CEF99AA31746E14400DC0598 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AA21746E14400DC0598 /* Default.png */; };
+		CEF99AA51746E14500DC0598 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AA41746E14400DC0598 /* Default@2x.png */; };
+		CEF99AA71746E14500DC0598 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AA61746E14500DC0598 /* Default-568h@2x.png */; };
+		CEF99AAA1746E14500DC0598 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AA81746E14500DC0598 /* MainStoryboard_iPhone.storyboard */; };
+		CEF99AAD1746E14500DC0598 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AAB1746E14500DC0598 /* MainStoryboard_iPad.storyboard */; };
+		CEF99AB01746E14500DC0598 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF99AAF1746E14500DC0598 /* ViewController.m */; };
+		CEF99AB81746E14500DC0598 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99AB71746E14500DC0598 /* SenTestingKit.framework */; };
+		CEF99AB91746E14500DC0598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A901746E14400DC0598 /* UIKit.framework */; };
+		CEF99ABA1746E14500DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
+		CEF99AC21746E14500DC0598 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AC01746E14500DC0598 /* InfoPlist.strings */; };
+		CEF99AC51746E14500DC0598 /* GekklistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF99AC41746E14500DC0598 /* GekklistTests.m */; };
+		CEF99ACF1746EBDE00DC0598 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CEF99ACE1746EBDE00DC0598 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D8E0A3141746D0DC00059C95 /* PBXContainerItemProxy */ = {
+		CEF99ABB1746E14500DC0598 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D8E0A2DE1746D0DC00059C95 /* Project object */;
+			containerPortal = CEF99A851746E14400DC0598 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D8E0A2E51746D0DC00059C95;
-			remoteInfo = geeklist;
+			remoteGlobalIDString = CEF99A8C1746E14400DC0598;
+			remoteInfo = Gekklist;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D8E0A2E61746D0DC00059C95 /* geeklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geeklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8E0A2E91746D0DC00059C95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D8E0A2EB1746D0DC00059C95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D8E0A2ED1746D0DC00059C95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8E0A2F11746D0DC00059C95 /* geeklist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "geeklist-Info.plist"; sourceTree = "<group>"; };
-		D8E0A2F31746D0DC00059C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D8E0A2F51746D0DC00059C95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8E0A2F71746D0DC00059C95 /* geeklist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "geeklist-Prefix.pch"; sourceTree = "<group>"; };
-		D8E0A2F81746D0DC00059C95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D8E0A2F91746D0DC00059C95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D8E0A2FB1746D0DC00059C95 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		D8E0A2FD1746D0DC00059C95 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D8E0A2FF1746D0DC00059C95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D8E0A3021746D0DC00059C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		D8E0A3051746D0DC00059C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		D8E0A3071746D0DC00059C95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D8E0A3081746D0DC00059C95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D8E0A30F1746D0DC00059C95 /* geeklistTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geeklistTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8E0A3101746D0DC00059C95 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D8E0A3181746D0DC00059C95 /* geeklistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "geeklistTests-Info.plist"; sourceTree = "<group>"; };
-		D8E0A31A1746D0DC00059C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D8E0A31C1746D0DC00059C95 /* geeklistTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geeklistTests.h; sourceTree = "<group>"; };
-		D8E0A31D1746D0DC00059C95 /* geeklistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = geeklistTests.m; sourceTree = "<group>"; };
-		D8E0A3271746E9D400059C95 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CE6F025F1746F47F000A0DC7 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		CE6F02601746F47F000A0DC7 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		CE6F026617470481000A0DC7 /* MicrosControllernav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicrosControllernav.h; path = InfosMicros/MicrosControllernav.h; sourceTree = "<group>"; };
+		CE6F026717470481000A0DC7 /* MicrosControllernav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MicrosControllernav.m; path = InfosMicros/MicrosControllernav.m; sourceTree = "<group>"; };
+		CE6F026917470532000A0DC7 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = Gekklist/splash.png; sourceTree = "<group>"; };
+		CE6F026B17470B93000A0DC7 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = Gekklist/facebook.png; sourceTree = "<group>"; };
+		CE6F026C17470B94000A0DC7 /* fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fond.png; path = Gekklist/fond.png; sourceTree = "<group>"; };
+		CE6F026F174723BE000A0DC7 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsViewController.h; path = InfosMicros/DetailsViewController.h; sourceTree = "<group>"; };
+		CE6F0270174723BE000A0DC7 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsViewController.m; path = InfosMicros/DetailsViewController.m; sourceTree = "<group>"; };
+		CE6F02721747494D000A0DC7 /* list-view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-view.png"; path = "Gekklist/list-view.png"; sourceTree = "<group>"; };
+		CE6F02731747494D000A0DC7 /* location-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location-pin.png"; path = "Gekklist/location-pin.png"; sourceTree = "<group>"; };
+		CE6F02741747494D000A0DC7 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = Gekklist/user.png; sourceTree = "<group>"; };
+		CEF99A8D1746E14400DC0598 /* GeekList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF99A901746E14400DC0598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEF99A921746E14400DC0598 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEF99A941746E14400DC0598 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEF99A981746E14400DC0598 /* GeekList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeekList-Info.plist"; sourceTree = "<group>"; };
+		CEF99A9A1746E14400DC0598 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEF99A9C1746E14400DC0598 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF99A9E1746E14400DC0598 /* GeekList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeekList-Prefix.pch"; sourceTree = "<group>"; };
+		CEF99A9F1746E14400DC0598 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEF99AA01746E14400DC0598 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEF99AA21746E14400DC0598 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEF99AA41746E14400DC0598 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEF99AA61746E14500DC0598 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEF99AA91746E14500DC0598 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CEF99AAC1746E14500DC0598 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CEF99AAE1746E14500DC0598 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEF99AAF1746E14500DC0598 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEF99AB61746E14500DC0598 /* GeekListTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeekListTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF99AB71746E14500DC0598 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEF99ABF1746E14500DC0598 /* GeekListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeekListTests-Info.plist"; sourceTree = "<group>"; };
+		CEF99AC11746E14500DC0598 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEF99AC31746E14500DC0598 /* GekklistTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GekklistTests.h; sourceTree = "<group>"; };
+		CEF99AC41746E14500DC0598 /* GekklistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GekklistTests.m; sourceTree = "<group>"; };
+		CEF99ACE1746EBDE00DC0598 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D8E0A2E31746D0DC00059C95 /* Frameworks */ = {
+		CEF99A8A1746E14400DC0598 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E0A2EA1746D0DC00059C95 /* UIKit.framework in Frameworks */,
-				D8E0A2EC1746D0DC00059C95 /* Foundation.framework in Frameworks */,
-				D8E0A2EE1746D0DC00059C95 /* CoreGraphics.framework in Frameworks */,
+				CEF99A911746E14400DC0598 /* UIKit.framework in Frameworks */,
+				CEF99A931746E14400DC0598 /* Foundation.framework in Frameworks */,
+				CEF99A951746E14400DC0598 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8E0A30B1746D0DC00059C95 /* Frameworks */ = {
+		CEF99AB21746E14500DC0598 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E0A3111746D0DC00059C95 /* SenTestingKit.framework in Frameworks */,
-				D8E0A3121746D0DC00059C95 /* UIKit.framework in Frameworks */,
-				D8E0A3131746D0DC00059C95 /* Foundation.framework in Frameworks */,
+				CEF99AB81746E14500DC0598 /* SenTestingKit.framework in Frameworks */,
+				CEF99AB91746E14500DC0598 /* UIKit.framework in Frameworks */,
+				CEF99ABA1746E14500DC0598 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D8E0A2DD1746D0DC00059C95 = {
+		CE6F02621747010C000A0DC7 /* Info */ = {
 			isa = PBXGroup;
 			children = (
-				D8E0A3271746E9D400059C95 /* .gitignore */,
-				D8E0A2EF1746D0DC00059C95 /* geeklist */,
-				D8E0A3161746D0DC00059C95 /* geeklistTests */,
-				D8E0A2E81746D0DC00059C95 /* Frameworks */,
-				D8E0A2E71746D0DC00059C95 /* Products */,
+				CE6F026617470481000A0DC7 /* MicrosControllernav.h */,
+				CE6F026717470481000A0DC7 /* MicrosControllernav.m */,
+				CE6F026F174723BE000A0DC7 /* DetailsViewController.h */,
+				CE6F0270174723BE000A0DC7 /* DetailsViewController.m */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		CEF99A841746E14400DC0598 = {
+			isa = PBXGroup;
+			children = (
+				CE6F02721747494D000A0DC7 /* list-view.png */,
+				CE6F02731747494D000A0DC7 /* location-pin.png */,
+				CE6F02741747494D000A0DC7 /* user.png */,
+				CE6F026B17470B93000A0DC7 /* facebook.png */,
+				CE6F026C17470B94000A0DC7 /* fond.png */,
+				CE6F026917470532000A0DC7 /* splash.png */,
+				CEF99ACE1746EBDE00DC0598 /* .gitignore */,
+				CEF99A961746E14400DC0598 /* Gekklist */,
+				CEF99ABD1746E14500DC0598 /* GekklistTests */,
+				CEF99A8F1746E14400DC0598 /* Frameworks */,
+				CEF99A8E1746E14400DC0598 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D8E0A2E71746D0DC00059C95 /* Products */ = {
+		CEF99A8E1746E14400DC0598 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8E0A2E61746D0DC00059C95 /* geeklist.app */,
-				D8E0A30F1746D0DC00059C95 /* geeklistTests.octest */,
+				CEF99A8D1746E14400DC0598 /* GeekList.app */,
+				CEF99AB61746E14500DC0598 /* GeekListTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D8E0A2E81746D0DC00059C95 /* Frameworks */ = {
+		CEF99A8F1746E14400DC0598 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D8E0A2E91746D0DC00059C95 /* UIKit.framework */,
-				D8E0A2EB1746D0DC00059C95 /* Foundation.framework */,
-				D8E0A2ED1746D0DC00059C95 /* CoreGraphics.framework */,
-				D8E0A3101746D0DC00059C95 /* SenTestingKit.framework */,
+				CEF99A901746E14400DC0598 /* UIKit.framework */,
+				CEF99A921746E14400DC0598 /* Foundation.framework */,
+				CEF99A941746E14400DC0598 /* CoreGraphics.framework */,
+				CEF99AB71746E14500DC0598 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8E0A2EF1746D0DC00059C95 /* geeklist */ = {
+		CEF99A961746E14400DC0598 /* Gekklist */ = {
 			isa = PBXGroup;
 			children = (
-				D8E0A2F81746D0DC00059C95 /* AppDelegate.h */,
-				D8E0A2F91746D0DC00059C95 /* AppDelegate.m */,
-				D8E0A3011746D0DC00059C95 /* MainStoryboard_iPhone.storyboard */,
-				D8E0A3041746D0DC00059C95 /* MainStoryboard_iPad.storyboard */,
-				D8E0A3071746D0DC00059C95 /* ViewController.h */,
-				D8E0A3081746D0DC00059C95 /* ViewController.m */,
-				D8E0A2F01746D0DC00059C95 /* Supporting Files */,
+				CE6F02621747010C000A0DC7 /* Info */,
+				CEF99A9F1746E14400DC0598 /* AppDelegate.h */,
+				CEF99AA01746E14400DC0598 /* AppDelegate.m */,
+				CEF99AA81746E14500DC0598 /* MainStoryboard_iPhone.storyboard */,
+				CEF99AAB1746E14500DC0598 /* MainStoryboard_iPad.storyboard */,
+				CEF99AAE1746E14500DC0598 /* ViewController.h */,
+				CEF99AAF1746E14500DC0598 /* ViewController.m */,
+				CEF99A971746E14400DC0598 /* Supporting Files */,
+				CE6F025F1746F47F000A0DC7 /* EntryViewController.h */,
+				CE6F02601746F47F000A0DC7 /* EntryViewController.m */,
 			);
-			path = geeklist;
+			path = Gekklist;
 			sourceTree = "<group>";
 		};
-		D8E0A2F01746D0DC00059C95 /* Supporting Files */ = {
+		CEF99A971746E14400DC0598 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8E0A2F11746D0DC00059C95 /* geeklist-Info.plist */,
-				D8E0A2F21746D0DC00059C95 /* InfoPlist.strings */,
-				D8E0A2F51746D0DC00059C95 /* main.m */,
-				D8E0A2F71746D0DC00059C95 /* geeklist-Prefix.pch */,
-				D8E0A2FB1746D0DC00059C95 /* Default.png */,
-				D8E0A2FD1746D0DC00059C95 /* Default@2x.png */,
-				D8E0A2FF1746D0DC00059C95 /* Default-568h@2x.png */,
+				CEF99A981746E14400DC0598 /* GeekList-Info.plist */,
+				CEF99A991746E14400DC0598 /* InfoPlist.strings */,
+				CEF99A9C1746E14400DC0598 /* main.m */,
+				CEF99A9E1746E14400DC0598 /* GeekList-Prefix.pch */,
+				CEF99AA21746E14400DC0598 /* Default.png */,
+				CEF99AA41746E14400DC0598 /* Default@2x.png */,
+				CEF99AA61746E14500DC0598 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D8E0A3161746D0DC00059C95 /* geeklistTests */ = {
+		CEF99ABD1746E14500DC0598 /* GekklistTests */ = {
 			isa = PBXGroup;
 			children = (
-				D8E0A31C1746D0DC00059C95 /* geeklistTests.h */,
-				D8E0A31D1746D0DC00059C95 /* geeklistTests.m */,
-				D8E0A3171746D0DC00059C95 /* Supporting Files */,
+				CEF99AC31746E14500DC0598 /* GekklistTests.h */,
+				CEF99AC41746E14500DC0598 /* GekklistTests.m */,
+				CEF99ABE1746E14500DC0598 /* Supporting Files */,
 			);
-			path = geeklistTests;
+			path = GekklistTests;
 			sourceTree = "<group>";
 		};
-		D8E0A3171746D0DC00059C95 /* Supporting Files */ = {
+		CEF99ABE1746E14500DC0598 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8E0A3181746D0DC00059C95 /* geeklistTests-Info.plist */,
-				D8E0A3191746D0DC00059C95 /* InfoPlist.strings */,
+				CEF99ABF1746E14500DC0598 /* GeekListTests-Info.plist */,
+				CEF99AC01746E14500DC0598 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,96 +210,102 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8E0A2E51746D0DC00059C95 /* geeklist */ = {
+		CEF99A8C1746E14400DC0598 /* GeekList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8E0A3211746D0DC00059C95 /* Build configuration list for PBXNativeTarget "geeklist" */;
+			buildConfigurationList = CEF99AC81746E14500DC0598 /* Build configuration list for PBXNativeTarget "GeekList" */;
 			buildPhases = (
-				D8E0A2E21746D0DC00059C95 /* Sources */,
-				D8E0A2E31746D0DC00059C95 /* Frameworks */,
-				D8E0A2E41746D0DC00059C95 /* Resources */,
+				CEF99A891746E14400DC0598 /* Sources */,
+				CEF99A8A1746E14400DC0598 /* Frameworks */,
+				CEF99A8B1746E14400DC0598 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = geeklist;
-			productName = geeklist;
-			productReference = D8E0A2E61746D0DC00059C95 /* geeklist.app */;
+			name = GeekList;
+			productName = Gekklist;
+			productReference = CEF99A8D1746E14400DC0598 /* GeekList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D8E0A30E1746D0DC00059C95 /* geeklistTests */ = {
+		CEF99AB51746E14500DC0598 /* GeekListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8E0A3241746D0DC00059C95 /* Build configuration list for PBXNativeTarget "geeklistTests" */;
+			buildConfigurationList = CEF99ACB1746E14500DC0598 /* Build configuration list for PBXNativeTarget "GeekListTests" */;
 			buildPhases = (
-				D8E0A30A1746D0DC00059C95 /* Sources */,
-				D8E0A30B1746D0DC00059C95 /* Frameworks */,
-				D8E0A30C1746D0DC00059C95 /* Resources */,
-				D8E0A30D1746D0DC00059C95 /* ShellScript */,
+				CEF99AB11746E14500DC0598 /* Sources */,
+				CEF99AB21746E14500DC0598 /* Frameworks */,
+				CEF99AB31746E14500DC0598 /* Resources */,
+				CEF99AB41746E14500DC0598 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D8E0A3151746D0DC00059C95 /* PBXTargetDependency */,
+				CEF99ABC1746E14500DC0598 /* PBXTargetDependency */,
 			);
-			name = geeklistTests;
-			productName = geeklistTests;
-			productReference = D8E0A30F1746D0DC00059C95 /* geeklistTests.octest */;
+			name = GeekListTests;
+			productName = GekklistTests;
+			productReference = CEF99AB61746E14500DC0598 /* GeekListTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D8E0A2DE1746D0DC00059C95 /* Project object */ = {
+		CEF99A851746E14400DC0598 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Loïc Saint-Roch";
+				ORGANIZATIONNAME = GeekList;
 			};
-			buildConfigurationList = D8E0A2E11746D0DC00059C95 /* Build configuration list for PBXProject "geeklist" */;
+			buildConfigurationList = CEF99A881746E14400DC0598 /* Build configuration list for PBXProject "GeekList" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D8E0A2DD1746D0DC00059C95;
-			productRefGroup = D8E0A2E71746D0DC00059C95 /* Products */;
+			mainGroup = CEF99A841746E14400DC0598;
+			productRefGroup = CEF99A8E1746E14400DC0598 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8E0A2E51746D0DC00059C95 /* geeklist */,
-				D8E0A30E1746D0DC00059C95 /* geeklistTests */,
+				CEF99A8C1746E14400DC0598 /* GeekList */,
+				CEF99AB51746E14500DC0598 /* GeekListTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D8E0A2E41746D0DC00059C95 /* Resources */ = {
+		CEF99A8B1746E14400DC0598 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E0A2F41746D0DC00059C95 /* InfoPlist.strings in Resources */,
-				D8E0A2FC1746D0DC00059C95 /* Default.png in Resources */,
-				D8E0A2FE1746D0DC00059C95 /* Default@2x.png in Resources */,
-				D8E0A3001746D0DC00059C95 /* Default-568h@2x.png in Resources */,
-				D8E0A3031746D0DC00059C95 /* MainStoryboard_iPhone.storyboard in Resources */,
-				D8E0A3061746D0DC00059C95 /* MainStoryboard_iPad.storyboard in Resources */,
-				D8E0A3281746E9D400059C95 /* .gitignore in Resources */,
+				CEF99A9B1746E14400DC0598 /* InfoPlist.strings in Resources */,
+				CEF99AA31746E14400DC0598 /* Default.png in Resources */,
+				CEF99AA51746E14500DC0598 /* Default@2x.png in Resources */,
+				CEF99AA71746E14500DC0598 /* Default-568h@2x.png in Resources */,
+				CEF99AAA1746E14500DC0598 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CEF99AAD1746E14500DC0598 /* MainStoryboard_iPad.storyboard in Resources */,
+				CEF99ACF1746EBDE00DC0598 /* .gitignore in Resources */,
+				CE6F026A17470532000A0DC7 /* splash.png in Resources */,
+				CE6F026D17470B94000A0DC7 /* facebook.png in Resources */,
+				CE6F026E17470B94000A0DC7 /* fond.png in Resources */,
+				CE6F02751747494D000A0DC7 /* list-view.png in Resources */,
+				CE6F02761747494D000A0DC7 /* location-pin.png in Resources */,
+				CE6F02771747494D000A0DC7 /* user.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8E0A30C1746D0DC00059C95 /* Resources */ = {
+		CEF99AB31746E14500DC0598 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E0A31B1746D0DC00059C95 /* InfoPlist.strings in Resources */,
+				CEF99AC21746E14500DC0598 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D8E0A30D1746D0DC00059C95 /* ShellScript */ = {
+		CEF99AB41746E14500DC0598 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,63 +321,66 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D8E0A2E21746D0DC00059C95 /* Sources */ = {
+		CEF99A891746E14400DC0598 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E0A2F61746D0DC00059C95 /* main.m in Sources */,
-				D8E0A2FA1746D0DC00059C95 /* AppDelegate.m in Sources */,
-				D8E0A3091746D0DC00059C95 /* ViewController.m in Sources */,
+				CEF99A9D1746E14400DC0598 /* main.m in Sources */,
+				CEF99AA11746E14400DC0598 /* AppDelegate.m in Sources */,
+				CEF99AB01746E14500DC0598 /* ViewController.m in Sources */,
+				CE6F02611746F47F000A0DC7 /* EntryViewController.m in Sources */,
+				CE6F026817470481000A0DC7 /* MicrosControllernav.m in Sources */,
+				CE6F0271174723BE000A0DC7 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8E0A30A1746D0DC00059C95 /* Sources */ = {
+		CEF99AB11746E14500DC0598 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E0A31E1746D0DC00059C95 /* geeklistTests.m in Sources */,
+				CEF99AC51746E14500DC0598 /* GekklistTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D8E0A3151746D0DC00059C95 /* PBXTargetDependency */ = {
+		CEF99ABC1746E14500DC0598 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8E0A2E51746D0DC00059C95 /* geeklist */;
-			targetProxy = D8E0A3141746D0DC00059C95 /* PBXContainerItemProxy */;
+			target = CEF99A8C1746E14400DC0598 /* GeekList */;
+			targetProxy = CEF99ABB1746E14500DC0598 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D8E0A2F21746D0DC00059C95 /* InfoPlist.strings */ = {
+		CEF99A991746E14400DC0598 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8E0A2F31746D0DC00059C95 /* en */,
+				CEF99A9A1746E14400DC0598 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D8E0A3011746D0DC00059C95 /* MainStoryboard_iPhone.storyboard */ = {
+		CEF99AA81746E14500DC0598 /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8E0A3021746D0DC00059C95 /* en */,
+				CEF99AA91746E14500DC0598 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		D8E0A3041746D0DC00059C95 /* MainStoryboard_iPad.storyboard */ = {
+		CEF99AAB1746E14500DC0598 /* MainStoryboard_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8E0A3051746D0DC00059C95 /* en */,
+				CEF99AAC1746E14500DC0598 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		D8E0A3191746D0DC00059C95 /* InfoPlist.strings */ = {
+		CEF99AC01746E14500DC0598 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D8E0A31A1746D0DC00059C95 /* en */,
+				CEF99AC11746E14500DC0598 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -338,7 +388,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D8E0A31F1746D0DC00059C95 /* Debug */ = {
+		CEF99AC61746E14500DC0598 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		D8E0A3201746D0DC00059C95 /* Release */ = {
+		CEF99AC71746E14500DC0598 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,57 +446,57 @@
 			};
 			name = Release;
 		};
-		D8E0A3221746D0DC00059C95 /* Debug */ = {
+		CEF99AC91746E14500DC0598 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "geeklist/geeklist-Prefix.pch";
-				INFOPLIST_FILE = "geeklist/geeklist-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";
+				INFOPLIST_FILE = "Gekklist/GeekList-Info.plist";
+				PRODUCT_NAME = GeekList;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		D8E0A3231746D0DC00059C95 /* Release */ = {
+		CEF99ACA1746E14500DC0598 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "geeklist/geeklist-Prefix.pch";
-				INFOPLIST_FILE = "geeklist/geeklist-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";
+				INFOPLIST_FILE = "Gekklist/GeekList-Info.plist";
+				PRODUCT_NAME = GeekList;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		D8E0A3251746D0DC00059C95 /* Debug */ = {
+		CEF99ACC1746E14500DC0598 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/geeklist.app/geeklist";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gekklist.app/Gekklist";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "geeklist/geeklist-Prefix.pch";
-				INFOPLIST_FILE = "geeklistTests/geeklistTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Gekklist/Gekklist-Prefix.pch";
+				INFOPLIST_FILE = "GekklistTests/GeekListTests-Info.plist";
+				PRODUCT_NAME = GeekListTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		D8E0A3261746D0DC00059C95 /* Release */ = {
+		CEF99ACD1746E14500DC0598 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/geeklist.app/geeklist";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gekklist.app/Gekklist";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "geeklist/geeklist-Prefix.pch";
-				INFOPLIST_FILE = "geeklistTests/geeklistTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Gekklist/Gekklist-Prefix.pch";
+				INFOPLIST_FILE = "GekklistTests/GeekListTests-Info.plist";
+				PRODUCT_NAME = GeekListTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -455,32 +505,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8E0A2E11746D0DC00059C95 /* Build configuration list for PBXProject "geeklist" */ = {
+		CEF99A881746E14400DC0598 /* Build configuration list for PBXProject "GeekList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8E0A31F1746D0DC00059C95 /* Debug */,
-				D8E0A3201746D0DC00059C95 /* Release */,
+				CEF99AC61746E14500DC0598 /* Debug */,
+				CEF99AC71746E14500DC0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8E0A3211746D0DC00059C95 /* Build configuration list for PBXNativeTarget "geeklist" */ = {
+		CEF99AC81746E14500DC0598 /* Build configuration list for PBXNativeTarget "GeekList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8E0A3221746D0DC00059C95 /* Debug */,
-				D8E0A3231746D0DC00059C95 /* Release */,
+				CEF99AC91746E14500DC0598 /* Debug */,
+				CEF99ACA1746E14500DC0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D8E0A3241746D0DC00059C95 /* Build configuration list for PBXNativeTarget "geeklistTests" */ = {
+		CEF99ACB1746E14500DC0598 /* Build configuration list for PBXNativeTarget "GeekListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8E0A3251746D0DC00059C95 /* Debug */,
-				D8E0A3261746D0DC00059C95 /* Release */,
+				CEF99ACC1746E14500DC0598 /* Debug */,
+				CEF99ACD1746E14500DC0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D8E0A2DE1746D0DC00059C95 /* Project object */;
+	rootObject = CEF99A851746E14400DC0598 /* Project object */;
 }

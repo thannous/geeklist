@@ -13,6 +13,9 @@
 		CE6F026D17470B94000A0DC7 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F026B17470B93000A0DC7 /* facebook.png */; };
 		CE6F026E17470B94000A0DC7 /* fond.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F026C17470B94000A0DC7 /* fond.png */; };
 		CE6F0271174723BE000A0DC7 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F0270174723BE000A0DC7 /* DetailsViewController.m */; };
+		CE6F02751747494D000A0DC7 /* list-view.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F02721747494D000A0DC7 /* list-view.png */; };
+		CE6F02761747494D000A0DC7 /* location-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F02731747494D000A0DC7 /* location-pin.png */; };
+		CE6F02771747494D000A0DC7 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F02741747494D000A0DC7 /* user.png */; };
 		CEF99A911746E14400DC0598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A901746E14400DC0598 /* UIKit.framework */; };
 		CEF99A931746E14400DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
 		CEF99A951746E14400DC0598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A941746E14400DC0598 /* CoreGraphics.framework */; };
@@ -53,6 +56,9 @@
 		CE6F026C17470B94000A0DC7 /* fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fond.png; path = Gekklist/fond.png; sourceTree = "<group>"; };
 		CE6F026F174723BE000A0DC7 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsViewController.h; path = InfosMicros/DetailsViewController.h; sourceTree = "<group>"; };
 		CE6F0270174723BE000A0DC7 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsViewController.m; path = InfosMicros/DetailsViewController.m; sourceTree = "<group>"; };
+		CE6F02721747494D000A0DC7 /* list-view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-view.png"; path = "Gekklist/list-view.png"; sourceTree = "<group>"; };
+		CE6F02731747494D000A0DC7 /* location-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location-pin.png"; path = "Gekklist/location-pin.png"; sourceTree = "<group>"; };
+		CE6F02741747494D000A0DC7 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = Gekklist/user.png; sourceTree = "<group>"; };
 		CEF99A8D1746E14400DC0598 /* Gekklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gekklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF99A901746E14400DC0598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEF99A921746E14400DC0598 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,6 +123,9 @@
 		CEF99A841746E14400DC0598 = {
 			isa = PBXGroup;
 			children = (
+				CE6F02721747494D000A0DC7 /* list-view.png */,
+				CE6F02731747494D000A0DC7 /* location-pin.png */,
+				CE6F02741747494D000A0DC7 /* user.png */,
 				CE6F026B17470B93000A0DC7 /* facebook.png */,
 				CE6F026C17470B94000A0DC7 /* fond.png */,
 				CE6F026917470532000A0DC7 /* splash.png */,
@@ -279,6 +288,9 @@
 				CE6F026A17470532000A0DC7 /* splash.png in Resources */,
 				CE6F026D17470B94000A0DC7 /* facebook.png in Resources */,
 				CE6F026E17470B94000A0DC7 /* fond.png in Resources */,
+				CE6F02751747494D000A0DC7 /* list-view.png in Resources */,
+				CE6F02761747494D000A0DC7 /* location-pin.png in Resources */,
+				CE6F02771747494D000A0DC7 /* user.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
