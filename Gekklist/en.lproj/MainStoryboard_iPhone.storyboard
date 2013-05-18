@@ -150,24 +150,110 @@
         <scene sceneID="1sZ-g8-vRT">
             <objects>
                 <viewController id="ypu-ok-fG3" customClass="DetailsViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="00i-eh-QEi">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="2eM-b2-zAE">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ccM-WJ-VWI">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBQ-hB-50d">
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="avA-3M-0UN">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="279" type="user" id="hIq-LX-bQf"/>
+                                        </constraints>
+                                    </tableView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fhH-p5-6Hm">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" type="user" id="4GP-zX-guW"/>
+                                            <constraint firstAttribute="width" constant="243" id="Xk0-So-CDx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="backgroundTouched:" destination="ypu-ok-fG3" eventType="touchUpOutside" id="1rH-q1-2C7"/>
+                                            <outlet property="delegate" destination="ypu-ok-fG3" id="rwo-Bh-foS"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2A-zq-lcJ">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gW-dS-RiX">
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdm-Mg-xet">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="98" id="Ob0-ah-BSg"/>
+                                                    <constraint firstAttribute="height" constant="120" id="rYJ-Ws-SLa"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="LVZVZVEZVRZVZ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MId-Xe-XVf">
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f2p-Dg-ySA">
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="BUI-mN-wci"/>
+                                                    <constraint firstAttribute="width" constant="204" id="zUX-V9-sac"/>
+                                                </constraints>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="vdm-Mg-xet" firstAttribute="leading" secondItem="2gW-dS-RiX" secondAttribute="leading" type="default" id="8rn-jf-wfl"/>
+                                            <constraint firstItem="vdm-Mg-xet" firstAttribute="bottom" secondItem="f2p-Dg-ySA" secondAttribute="bottom" type="default" id="Dez-AC-6e1"/>
+                                            <constraint firstItem="f2p-Dg-ySA" firstAttribute="top" secondItem="MId-Xe-XVf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ML1-FQ-5XS"/>
+                                            <constraint firstItem="MId-Xe-XVf" firstAttribute="leading" secondItem="2gW-dS-RiX" secondAttribute="leading" constant="145" id="ijx-dH-wIk"/>
+                                            <constraint firstItem="f2p-Dg-ySA" firstAttribute="leading" secondItem="vdm-Mg-xet" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="qk5-ha-cc3"/>
+                                            <constraint firstItem="MId-Xe-XVf" firstAttribute="top" secondItem="2gW-dS-RiX" secondAttribute="top" constant="20" symbolic="YES" type="default" id="vIj-fP-wD1"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="zAx-4F-vPY"/>
-                                    <constraint firstAttribute="width" constant="100" id="zZg-LF-GJP"/>
+                                    <constraint firstAttribute="trailing" secondItem="2gW-dS-RiX" secondAttribute="trailing" type="user" id="4nb-vs-3Cd"/>
+                                    <constraint firstItem="2gW-dS-RiX" firstAttribute="top" secondItem="FBQ-hB-50d" secondAttribute="top" type="default" id="6qT-0M-F6h"/>
+                                    <constraint firstItem="avA-3M-0UN" firstAttribute="trailing" secondItem="FBQ-hB-50d" secondAttribute="trailing" type="default" id="CAe-7t-7N3"/>
+                                    <constraint firstItem="avA-3M-0UN" firstAttribute="top" secondItem="2gW-dS-RiX" secondAttribute="bottom" constant="-2" type="user" id="Ew5-fn-U08"/>
+                                    <constraint firstItem="U2A-zq-lcJ" firstAttribute="trailing" secondItem="FBQ-hB-50d" secondAttribute="trailing" type="default" id="IKP-Wu-e5t"/>
+                                    <constraint firstItem="U2A-zq-lcJ" firstAttribute="bottom" secondItem="FBQ-hB-50d" secondAttribute="bottom" type="default" id="Lcr-tb-NrI"/>
+                                    <constraint firstItem="fhH-p5-6Hm" firstAttribute="leading" secondItem="FBQ-hB-50d" secondAttribute="leading" type="default" id="PjK-lO-fTf"/>
+                                    <constraint firstItem="U2A-zq-lcJ" firstAttribute="top" secondItem="avA-3M-0UN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="QW5-np-ToG"/>
+                                    <constraint firstAttribute="height" constant="455" type="user" id="RPN-hY-COy"/>
+                                    <constraint firstItem="fhH-p5-6Hm" firstAttribute="bottom" secondItem="FBQ-hB-50d" secondAttribute="bottom" type="user" id="S6K-Xd-G22"/>
+                                    <constraint firstItem="avA-3M-0UN" firstAttribute="leading" secondItem="FBQ-hB-50d" secondAttribute="leading" type="default" id="Vzo-Wr-6IR"/>
+                                    <constraint firstItem="fhH-p5-6Hm" firstAttribute="top" secondItem="avA-3M-0UN" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="kgM-Fb-4Kv"/>
+                                    <constraint firstItem="2gW-dS-RiX" firstAttribute="leading" secondItem="FBQ-hB-50d" secondAttribute="leading" type="user" id="m2j-cL-Lkd"/>
                                 </constraints>
-                            </imageView>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ccM-WJ-VWI" firstAttribute="leading" secondItem="00i-eh-QEi" secondAttribute="leading" type="user" id="64M-Rw-u5s"/>
-                            <constraint firstItem="ccM-WJ-VWI" firstAttribute="top" secondItem="00i-eh-QEi" secondAttribute="top" type="default" id="ltX-LC-yPt"/>
+                            <constraint firstItem="FBQ-hB-50d" firstAttribute="top" secondItem="2eM-b2-zAE" secondAttribute="top" constant="-9" id="Ey2-BZ-WUe"/>
+                            <constraint firstItem="FBQ-hB-50d" firstAttribute="centerX" secondItem="2eM-b2-zAE" secondAttribute="centerX" type="user" id="MRG-cj-Dyx"/>
+                            <constraint firstItem="FBQ-hB-50d" firstAttribute="trailing" secondItem="2eM-b2-zAE" secondAttribute="trailing" type="default" id="aEi-w8-Ibl"/>
+                            <constraint firstAttribute="bottom" secondItem="FBQ-hB-50d" secondAttribute="bottom" constant="9" id="geW-Yc-020"/>
+                            <constraint firstItem="FBQ-hB-50d" firstAttribute="leading" secondItem="2eM-b2-zAE" secondAttribute="leading" type="user" id="mWo-jC-NIN"/>
                         </constraints>
-                    </view>
+                        <connections>
+                            <outlet property="delegate" destination="ypu-ok-fG3" id="ojs-7c-sZk"/>
+                        </connections>
+                    </scrollView>
                     <navigationItem key="navigationItem" id="IRA-QP-1ig"/>
+                    <connections>
+                        <outlet property="InfoMicro" destination="2gW-dS-RiX" id="ve6-3E-8sU"/>
+                        <outlet property="scrollView" destination="2eM-b2-zAE" id="g8C-NC-b7t"/>
+                        <outlet property="textField" destination="fhH-p5-6Hm" id="TL1-uW-gRe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hxp-mv-YbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -226,6 +312,11 @@
     <classes>
         <class className="DetailsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailsViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="InfoMicro" candidateClass="UIView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
+            </relationships>
         </class>
         <class className="EntryViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EntryViewController.h"/>

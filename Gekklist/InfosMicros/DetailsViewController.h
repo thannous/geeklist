@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailsViewController : UIViewController
+@interface DetailsViewController : UIViewController <UITextFieldDelegate,UIScrollViewDelegate>
+{
+	IBOutlet UIScrollView * scrollView;
+	IBOutlet UITextField * textField;
+	IBOutlet UIView * InfoMicro;
+	
+}
 @property (retain,readwrite)NSString * titre;
 @property (retain,readwrite)NSString * commentaire;
 @property (retain,readwrite)UIImage * image;
