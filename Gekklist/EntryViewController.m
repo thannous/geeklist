@@ -10,4 +10,8 @@
 
 @implementation EntryViewController
 
+-(IBAction)bouton:(id)sender
+{
+	[self performSegueWithIdentifier:@"ToNavWorld" sender:self];
+}
 @end

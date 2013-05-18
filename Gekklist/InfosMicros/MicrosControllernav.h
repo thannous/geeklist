@@ -1,5 +1,5 @@
 //
-//  EntryViewController.h
+//  MicrosControllernav.h
 //  Gekklist
 //
 //  Created by Kévin Mondésir on 18/05/13.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EntryViewController : UIViewController
--(IBAction)bouton:(id)sender;
+@interface MicrosControllernav : UIViewController
 
 @end

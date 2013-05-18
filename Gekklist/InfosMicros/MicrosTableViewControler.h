@@ -1,5 +1,5 @@
 //
-//  EntryViewController.h
+//  MicrosTableViewControler.h
 //  Gekklist
 //
 //  Created by Kévin Mondésir on 18/05/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EntryViewController : UIViewController
--(IBAction)bouton:(id)sender;
+@interface MicrosTableViewControler : UITableViewController
 
+@property (nonatomic,copy)NSMutableArray * lesgens;
 @end
