@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GeekList.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>geeklist.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>CEF99A8C1746E14400DC0598</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEF99AB51746E14500DC0598</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D8E0A2E51746D0DC00059C95</key>
 		<dict>
 			<key>primary</key>
