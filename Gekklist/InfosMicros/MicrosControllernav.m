@@ -10,7 +10,7 @@
 
 @implementation MicrosControllernav
 @synthesize state;
-@synthesize data;
+@synthesize datas;
 -(void)viewDidLoad
 {
 	[super viewDidLoad];
@@ -34,7 +34,7 @@
 	[_lesgens addObject:@"Dilbert"];
 	[_lesgens addObject:@"Dilbert"];
 	[_lesgens addObject:@"Dilbert"];
-	data=[[NSMutableArray alloc]init];
+	datas=[[NSMutableArray alloc]init];
 	
 	[[self navigationController] setNavigationBarHidden:YES animated:YES];
 	NSMutableDictionary *
@@ -60,10 +60,10 @@
 			[[courante reply]addObject:reply];
 			i++;
 		}
-		[data addObject:courante];
+		[datas addObject:courante];
 		
 	}
-	NSLog(@"%@",data);
+	
 	
 }
 -(void)viewWillAppear:(BOOL)animated
@@ -76,16 +76,16 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-	return [data count];
+	return [datas count];
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	UITableViewCell * cell= [[UITableViewCell alloc]initWithStyle:3 reuseIdentifier:@"News"];
-	cell.textLabel.text=[(AllData *)[data objectAtIndex:[indexPath indexAtPosition:1]]title];
+	cell.textLabel.text=[(AllData *)[datas objectAtIndex:[indexPath indexAtPosition:1]]title];
 	UIButton * button=[[UIButton alloc]initWithFrame:CGRectMake(160, 0, 60, 60)];
 	
-	NSURL *url = [NSURL URLWithString:[[data objectAtIndex:[indexPath indexAtPosition:1]]photoURL]];
-	NSLog(@"%@",[[data objectAtIndex:[indexPath indexAtPosition:1]]photoURL]);
+	NSURL *url = [NSURL URLWithString:[[datas objectAtIndex:[indexPath indexAtPosition:1]]photoURL]];
+	NSLog(@"%@",[[datas objectAtIndex:[indexPath indexAtPosition:1]]photoURL]);
 	NSData *data2 = [NSData dataWithContentsOfURL:url];
 	UIImage *img = [[UIImage alloc] initWithData:data2];
 	[cell.imageView setImage: img];
@@ -97,16 +97,17 @@
 {
 	state=[[[(UIButton *)sender titleLabel]text]intValue];
 	[self performSegueWithIdentifier:@"details" sender:self];
-}/*
+}
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
 	if([[segue identifier] isEqualToString:@"details"]){
 		controller=[segue destinationViewController];
-		//[controller setCommentaire:[ objectAtIndex:state]];
+		[controller setCommentaire:[[datas objectAtIndex:state]comment]];
 		
+		[(DetailsViewController *)[segue destinationViewController]setDatas:[self datas]];
 		
 	}
-}*/
+}
 -(void)getInfo
 {
 	

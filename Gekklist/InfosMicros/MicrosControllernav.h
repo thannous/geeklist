@@ -13,10 +13,10 @@
 @interface MicrosControllernav : UITableViewController
 {
 	IBOutlet UITableView * tablevue;
-	IBOutlet DetailsViewController * controller;
+	DetailsViewController * controller;
 	
 }
-@property (nonatomic,copy)NSMutableArray * data;
+@property (nonatomic,copy)NSMutableArray * datas;
 @property (nonatomic,copy)NSMutableArray * lesgens;
 @property (readonly)int state;
 -(void)tapped:(id)sender;

@@ -212,9 +212,9 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="90" type="user" id="624-Tr-0h8"/>
-                                            <constraint firstItem="vdm-Mg-xet" firstAttribute="top" secondItem="2gW-dS-RiX" secondAttribute="top" constant="12" id="J1Y-kt-Izx"/>
                                             <constraint firstItem="vdm-Mg-xet" firstAttribute="leading" secondItem="2gW-dS-RiX" secondAttribute="leading" constant="14" id="bd1-Pa-Hxp"/>
                                             <constraint firstItem="MId-Xe-XVf" firstAttribute="leading" secondItem="2gW-dS-RiX" secondAttribute="leading" constant="145" id="ijx-dH-wIk"/>
+                                            <constraint firstItem="vdm-Mg-xet" firstAttribute="top" secondItem="2gW-dS-RiX" secondAttribute="top" constant="16" id="rfL-0G-Na5"/>
                                             <constraint firstItem="MId-Xe-XVf" firstAttribute="top" secondItem="2gW-dS-RiX" secondAttribute="top" constant="20" symbolic="YES" type="default" id="vIj-fP-wD1"/>
                                         </constraints>
                                     </view>
@@ -334,7 +334,6 @@
         <class className="MicrosControllernav" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MicrosControllernav.h"/>
             <relationships>
-                <relationship kind="outlet" name="controller" candidateClass="DetailsViewController"/>
                 <relationship kind="outlet" name="tablevue" candidateClass="UITableView"/>
             </relationships>
         </class>

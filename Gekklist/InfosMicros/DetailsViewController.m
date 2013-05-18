@@ -12,6 +12,7 @@
 @synthesize image;
 @synthesize titre;
 @synthesize commentaire;
+@synthesize datas;
 -(void)viewDidLoad
 {
 	[super viewDidLoad];
@@ -25,14 +26,19 @@
 	NSData *data2 = [NSData dataWithContentsOfURL:url];
 	UIImage *img = [[UIImage alloc] initWithData:data2];
 	[portrait setImage:img];
+	NSLog(@"%@",[self datas]);
 	
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-	[self setData:[(MicrosControllernav *)sender data]];
+	if([[segue destinationViewController]data]==0)
+	{
+		[[segue destinationViewController] setDatas:[self datas]];
+	}
 }
 - (void)viewWillAppear:(BOOL)animated
 {
+	
 	[super viewWillAppear:animated];
 	[[self navigationController] setNavigationBarHidden:NO animated:YES];
     // listen for keyboard hide/show notifications so we can properly adjust the table's height

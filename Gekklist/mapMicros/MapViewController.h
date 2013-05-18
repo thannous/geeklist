@@ -10,7 +10,7 @@
 #import <MapKit/MapKit.h>
 
 @interface MapViewController : UIViewController
-@property (nonatomic,assign)NSMutableArray * data;
+@property (nonatomic,assign)NSMutableArray * datas;
 @end
 
 

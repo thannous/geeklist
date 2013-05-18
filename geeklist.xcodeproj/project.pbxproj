@@ -27,6 +27,7 @@
 		CEAFB01B1747EDDA00C88250 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAFB01A1747EDDA00C88250 /* header.png */; };
 		CEAFB01D1747EF3900C88250 /* header1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAFB01C1747EF3900C88250 /* header1.png */; };
 		CEAFB0201747F95400C88250 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFB01F1747F95400C88250 /* CommunityViewController.m */; };
+		CEAFB0241748154800C88250 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAFB0231748154800C88250 /* Security.framework */; };
 		CEF99A911746E14400DC0598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A901746E14400DC0598 /* UIKit.framework */; };
 		CEF99A931746E14400DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
 		CEF99A951746E14400DC0598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A941746E14400DC0598 /* CoreGraphics.framework */; };
@@ -109,6 +110,8 @@
 		CEAFB01C1747EF3900C88250 /* header1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header1.png; path = Gekklist/header1.png; sourceTree = "<group>"; };
 		CEAFB01E1747F95400C88250 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
 		CEAFB01F1747F95400C88250 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
+		CEAFB0211748144800C88250 /* OAuthConsumer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthConsumer.framework; path = ../OAuthConsumer/build/Debug/OAuthConsumer.framework; sourceTree = "<group>"; };
+		CEAFB0231748154800C88250 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CEF99A8D1746E14400DC0598 /* GeekList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF99A901746E14400DC0598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEF99A921746E14400DC0598 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -154,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFB0241748154800C88250 /* Security.framework in Frameworks */,
 				D835BC2F174769F400398B05 /* QuartzCore.framework in Frameworks */,
 				CE8E275F1747BDF600042641 /* libxml2.2.dylib in Frameworks */,
 				CE8E275D1747BDC200042641 /* libxml2.dylib in Frameworks */,
@@ -222,6 +226,8 @@
 		CEF99A841746E14400DC0598 = {
 			isa = PBXGroup;
 			children = (
+				CEAFB0231748154800C88250 /* Security.framework */,
+				CEAFB0211748144800C88250 /* OAuthConsumer.framework */,
 				CEAFB01C1747EF3900C88250 /* header1.png */,
 				CEAFB01A1747EDDA00C88250 /* header.png */,
 				CE8E275E1747BDF600042641 /* libxml2.2.dylib */,
@@ -599,6 +605,7 @@
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/obj-c/OAuthConsumer/build/Debug\"",
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/Debug\"",
+					"\"$(SRCROOT)/../OAuthConsumer/build/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";
@@ -624,6 +631,7 @@
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/obj-c/OAuthConsumer/build/Debug\"",
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/Debug\"",
+					"\"$(SRCROOT)/../OAuthConsumer/build/Debug\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";

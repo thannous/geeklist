@@ -14,8 +14,10 @@
 @end
 
 @implementation MapViewController{
+	
     GMSMapView *mapView_;
 }
+@synthesize datas;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,7 +27,13 @@
     }
     return self;
 }
-
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+	if([[segue destinationViewController]data]==0)
+	{
+		[[segue destinationViewController] setDatas:[self datas]];
+	}
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];

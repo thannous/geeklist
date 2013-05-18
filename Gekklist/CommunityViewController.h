@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CommunityViewController : UIViewController
-@property (nonatomic,assign)NSMutableArray * data;
+@property (nonatomic,assign)NSMutableArray * datas;
 @end

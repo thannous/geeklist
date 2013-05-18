@@ -19,7 +19,7 @@
 	IBOutlet UIImageView * portrait;
 	
 }
-@property (nonatomic,assign)NSMutableArray * data;
+@property (nonatomic,assign)NSMutableArray * datas;
 @property (retain,readwrite)NSString * titre;
 @property (retain,readwrite)NSString * commentaire;
 @property (retain,readwrite)UIImage * image;
