@@ -526,6 +526,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";
 				INFOPLIST_FILE = "Gekklist/GeekList-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = GeekList;
 				WRAPPER_EXTENSION = app;
 			};
@@ -541,6 +542,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";
 				INFOPLIST_FILE = "Gekklist/GeekList-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = GeekList;
 				WRAPPER_EXTENSION = app;
 			};
