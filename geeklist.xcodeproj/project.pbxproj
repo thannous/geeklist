@@ -167,18 +167,9 @@
 		CEF99A841746E14400DC0598 = {
 			isa = PBXGroup;
 			children = (
-				D835BC30174769FF00398B05 /* SystemConfiguration.framework */,
-				D835BC2E174769F400398B05 /* QuartzCore.framework */,
-				D835BC2C174769E800398B05 /* OpenGLES.framework */,
 				D835BC2A174769CE00398B05 /* libz.dylib */,
 				D835BC28174769AF00398B05 /* libicucore.dylib */,
 				D835BC261747694E00398B05 /* libc++.dylib */,
-				D835BC241747692900398B05 /* ImageIO.framework */,
-				D835BC221747691A00398B05 /* GLKit.framework */,
-				D835BC201747690F00398B05 /* CoreText.framework */,
-				D835BC1E174767EE00398B05 /* CoreLocation.framework */,
-				D835BC1C174767DF00398B05 /* CoreData.framework */,
-				D835BC1A174767D100398B05 /* AVFoundation.framework */,
 				CE6F02721747494D000A0DC7 /* list-view.png */,
 				CE6F02731747494D000A0DC7 /* location-pin.png */,
 				CE6F02741747494D000A0DC7 /* user.png */,
@@ -205,6 +196,15 @@
 		CEF99A8F1746E14400DC0598 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D835BC30174769FF00398B05 /* SystemConfiguration.framework */,
+				D835BC2E174769F400398B05 /* QuartzCore.framework */,
+				D835BC2C174769E800398B05 /* OpenGLES.framework */,
+				D835BC241747692900398B05 /* ImageIO.framework */,
+				D835BC221747691A00398B05 /* GLKit.framework */,
+				D835BC201747690F00398B05 /* CoreText.framework */,
+				D835BC1E174767EE00398B05 /* CoreLocation.framework */,
+				D835BC1C174767DF00398B05 /* CoreData.framework */,
+				D835BC1A174767D100398B05 /* AVFoundation.framework */,
 				D835BC181747672D00398B05 /* GoogleMaps.bundle */,
 				D835BC16174765CB00398B05 /* GoogleMaps.framework */,
 				CEF99A901746E14400DC0598 /* UIKit.framework */,
