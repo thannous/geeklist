@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailsViewController.h"
 
-@interface MicrosControllernav : UIViewController
-
+@interface MicrosControllernav : UITableViewController
+{
+	IBOutlet UITableView * tablevue;
+	DetailsViewController * controller;
+}
+@property (nonatomic,copy)NSMutableArray * lesgens;
+@property (readonly)int state;
+-(void)tapped:(id)sender;
 @end

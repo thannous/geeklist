@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CE6F02611746F47F000A0DC7 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F02601746F47F000A0DC7 /* EntryViewController.m */; };
-		CE6F02651747017B000A0DC7 /* MicrosTableViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F02641747017B000A0DC7 /* MicrosTableViewControler.m */; };
 		CE6F026817470481000A0DC7 /* MicrosControllernav.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F026717470481000A0DC7 /* MicrosControllernav.m */; };
 		CE6F026A17470532000A0DC7 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F026917470532000A0DC7 /* splash.png */; };
 		CE6F026D17470B94000A0DC7 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F026B17470B93000A0DC7 /* facebook.png */; };
 		CE6F026E17470B94000A0DC7 /* fond.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F026C17470B94000A0DC7 /* fond.png */; };
+		CE6F0271174723BE000A0DC7 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F0270174723BE000A0DC7 /* DetailsViewController.m */; };
 		CEF99A911746E14400DC0598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A901746E14400DC0598 /* UIKit.framework */; };
 		CEF99A931746E14400DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
 		CEF99A951746E14400DC0598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A941746E14400DC0598 /* CoreGraphics.framework */; };
@@ -46,13 +46,13 @@
 /* Begin PBXFileReference section */
 		CE6F025F1746F47F000A0DC7 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
 		CE6F02601746F47F000A0DC7 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
-		CE6F02631747017B000A0DC7 /* MicrosTableViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicrosTableViewControler.h; path = InfosMicros/MicrosTableViewControler.h; sourceTree = "<group>"; };
-		CE6F02641747017B000A0DC7 /* MicrosTableViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MicrosTableViewControler.m; path = InfosMicros/MicrosTableViewControler.m; sourceTree = "<group>"; };
 		CE6F026617470481000A0DC7 /* MicrosControllernav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicrosControllernav.h; path = InfosMicros/MicrosControllernav.h; sourceTree = "<group>"; };
 		CE6F026717470481000A0DC7 /* MicrosControllernav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MicrosControllernav.m; path = InfosMicros/MicrosControllernav.m; sourceTree = "<group>"; };
 		CE6F026917470532000A0DC7 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = Gekklist/splash.png; sourceTree = "<group>"; };
 		CE6F026B17470B93000A0DC7 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = Gekklist/facebook.png; sourceTree = "<group>"; };
 		CE6F026C17470B94000A0DC7 /* fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fond.png; path = Gekklist/fond.png; sourceTree = "<group>"; };
+		CE6F026F174723BE000A0DC7 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsViewController.h; path = InfosMicros/DetailsViewController.h; sourceTree = "<group>"; };
+		CE6F0270174723BE000A0DC7 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsViewController.m; path = InfosMicros/DetailsViewController.m; sourceTree = "<group>"; };
 		CEF99A8D1746E14400DC0598 /* Gekklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gekklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF99A901746E14400DC0598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEF99A921746E14400DC0598 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,10 +106,10 @@
 		CE6F02621747010C000A0DC7 /* Info */ = {
 			isa = PBXGroup;
 			children = (
-				CE6F02631747017B000A0DC7 /* MicrosTableViewControler.h */,
-				CE6F02641747017B000A0DC7 /* MicrosTableViewControler.m */,
 				CE6F026617470481000A0DC7 /* MicrosControllernav.h */,
 				CE6F026717470481000A0DC7 /* MicrosControllernav.m */,
+				CE6F026F174723BE000A0DC7 /* DetailsViewController.h */,
+				CE6F0270174723BE000A0DC7 /* DetailsViewController.m */,
 			);
 			name = Info;
 			sourceTree = "<group>";
@@ -317,8 +317,8 @@
 				CEF99AA11746E14400DC0598 /* AppDelegate.m in Sources */,
 				CEF99AB01746E14500DC0598 /* ViewController.m in Sources */,
 				CE6F02611746F47F000A0DC7 /* EntryViewController.m in Sources */,
-				CE6F02651747017B000A0DC7 /* MicrosTableViewControler.m in Sources */,
 				CE6F026817470481000A0DC7 /* MicrosControllernav.m in Sources */,
+				CE6F0271174723BE000A0DC7 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
