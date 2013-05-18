@@ -56,22 +56,25 @@
                                     <action selector="bouton:" destination="OM5-UA-9lD" eventType="touchUpInside" id="qZW-iR-WFI"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="swx-n2-c73"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="swx-n2-c73">
+                                <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="swx-n2-c73" firstAttribute="top" secondItem="zdI-D0-x5f" secondAttribute="bottom" constant="7" type="user" id="6u3-W3-whC"/>
                             <constraint firstItem="zdI-D0-x5f" firstAttribute="centerX" secondItem="aRJ-fs-fc5" secondAttribute="centerX" type="default" id="Bur-qO-WD9"/>
                             <constraint firstItem="aRJ-fs-fc5" firstAttribute="trailing" secondItem="iIz-60-EIg" secondAttribute="trailing" type="default" id="IYy-GW-Vjf"/>
                             <constraint firstItem="aRJ-fs-fc5" firstAttribute="bottom" secondItem="iIz-60-EIg" secondAttribute="bottom" type="default" id="MEc-y0-rHR"/>
-                            <constraint firstItem="zdI-D0-x5f" firstAttribute="top" secondItem="iIz-60-EIg" secondAttribute="top" constant="252" id="VgZ-fI-mMP"/>
+                            <constraint firstItem="zdI-D0-x5f" firstAttribute="top" secondItem="iIz-60-EIg" secondAttribute="top" constant="252" type="user" id="VgZ-fI-mMP"/>
                             <constraint firstItem="aRJ-fs-fc5" firstAttribute="top" secondItem="iIz-60-EIg" secondAttribute="top" type="default" id="bIG-Hi-y4f"/>
-                            <constraint firstAttribute="bottom" secondItem="swx-n2-c73" secondAttribute="bottom" constant="238" id="djQ-nK-UPh"/>
                             <constraint firstItem="swx-n2-c73" firstAttribute="leading" secondItem="iIz-60-EIg" secondAttribute="leading" constant="155" id="iZN-ph-nrp"/>
                             <constraint firstItem="aRJ-fs-fc5" firstAttribute="leading" secondItem="iIz-60-EIg" secondAttribute="leading" type="default" id="ixP-hh-oCI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7QG-bH-0Gc"/>
                     <connections>
+                        <outlet property="indicator" destination="swx-n2-c73" id="p7J-H5-Xcc"/>
                         <segue destination="G4s-8g-UBz" kind="modal" identifier="ToNavWorld" modalTransitionStyle="crossDissolve" id="Gni-zy-a0N"/>
                     </connections>
                 </viewController>
@@ -202,6 +205,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EntryViewController.h"/>
             <relationships>
                 <relationship kind="action" name="bouton:"/>
+                <relationship kind="outlet" name="indicator" candidateClass="UIActivityIndicatorView"/>
             </relationships>
         </class>
         <class className="MicrosControllernav" superclassName="UIViewController">

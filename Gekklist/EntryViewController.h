@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface EntryViewController : UIViewController
+{
+	IBOutlet UIActivityIndicatorView * indicator;
+}
 -(IBAction)bouton:(id)sender;
-
+-(void)toNavWorld;
 @end

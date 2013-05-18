@@ -9,8 +9,19 @@
 #import "EntryViewController.h"
 
 @implementation EntryViewController
+-(void)viewDidLoad
+{
+	[super viewDidLoad];
+	[indicator stopAnimating];
+	[indicator setHidesWhenStopped:YES];
+}
 
 -(IBAction)bouton:(id)sender
+{
+	[indicator startAnimating];
+	[self performSelector:@selector(toNavWorld) withObject:nil afterDelay:2];
+}
+-(void)toNavWorld
 {
 	[self performSegueWithIdentifier:@"ToNavWorld" sender:self];
 }
