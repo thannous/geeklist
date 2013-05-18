@@ -16,6 +16,7 @@
 		CE6F02751747494D000A0DC7 /* list-view.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F02721747494D000A0DC7 /* list-view.png */; };
 		CE6F02761747494D000A0DC7 /* location-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F02731747494D000A0DC7 /* location-pin.png */; };
 		CE6F02771747494D000A0DC7 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F02741747494D000A0DC7 /* user.png */; };
+		CEBA44F91747880200CE305E /* test copie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEBA44F81747880200CE305E /* test copie.jpg */; };
 		CEF99A911746E14400DC0598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A901746E14400DC0598 /* UIKit.framework */; };
 		CEF99A931746E14400DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
 		CEF99A951746E14400DC0598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A941746E14400DC0598 /* CoreGraphics.framework */; };
@@ -59,6 +60,7 @@
 		CE6F02721747494D000A0DC7 /* list-view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-view.png"; path = "Gekklist/list-view.png"; sourceTree = "<group>"; };
 		CE6F02731747494D000A0DC7 /* location-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location-pin.png"; path = "Gekklist/location-pin.png"; sourceTree = "<group>"; };
 		CE6F02741747494D000A0DC7 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = Gekklist/user.png; sourceTree = "<group>"; };
+		CEBA44F81747880200CE305E /* test copie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "test copie.jpg"; path = "Gekklist/test copie.jpg"; sourceTree = "<group>"; };
 		CEF99A8D1746E14400DC0598 /* GeekList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF99A901746E14400DC0598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEF99A921746E14400DC0598 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +125,7 @@
 		CEF99A841746E14400DC0598 = {
 			isa = PBXGroup;
 			children = (
+				CEBA44F81747880200CE305E /* test copie.jpg */,
 				CE6F02721747494D000A0DC7 /* list-view.png */,
 				CE6F02731747494D000A0DC7 /* location-pin.png */,
 				CE6F02741747494D000A0DC7 /* user.png */,
@@ -291,6 +294,7 @@
 				CE6F02751747494D000A0DC7 /* list-view.png in Resources */,
 				CE6F02761747494D000A0DC7 /* location-pin.png in Resources */,
 				CE6F02771747494D000A0DC7 /* user.png in Resources */,
+				CEBA44F91747880200CE305E /* test copie.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +453,11 @@
 		CEF99AC91746E14500DC0598 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/obj-c/OAuthConsumer/build/Debug\"",
+					"\"$(SRCROOT)/Gekklist\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";
 				INFOPLIST_FILE = "Gekklist/GeekList-Info.plist";
@@ -460,6 +469,11 @@
 		CEF99ACA1746E14500DC0598 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/obj-c/OAuthConsumer/build/Debug\"",
+					"\"$(SRCROOT)/Gekklist\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";
 				INFOPLIST_FILE = "Gekklist/GeekList-Info.plist";
