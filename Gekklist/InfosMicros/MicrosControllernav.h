@@ -13,7 +13,7 @@
 @interface MicrosControllernav : UITableViewController
 {
 	IBOutlet UITableView * tablevue;
-	DetailsViewController * controller;
+	IBOutlet DetailsViewController * controller;
 	
 }
 @property (nonatomic,copy)NSMutableArray * data;

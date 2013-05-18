@@ -24,6 +24,9 @@
 		CEAFB0131747CFA100C88250 /* AllData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFB0121747CFA100C88250 /* AllData.m */; };
 		CEAFB0171747D0CA00C88250 /* ReplyData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFB0161747D0CA00C88250 /* ReplyData.m */; };
 		CEAFB0191747D68200C88250 /* Information.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAFB0181747D68200C88250 /* Information.plist */; };
+		CEAFB01B1747EDDA00C88250 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAFB01A1747EDDA00C88250 /* header.png */; };
+		CEAFB01D1747EF3900C88250 /* header1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAFB01C1747EF3900C88250 /* header1.png */; };
+		CEAFB0201747F95400C88250 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFB01F1747F95400C88250 /* CommunityViewController.m */; };
 		CEF99A911746E14400DC0598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A901746E14400DC0598 /* UIKit.framework */; };
 		CEF99A931746E14400DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
 		CEF99A951746E14400DC0598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A941746E14400DC0598 /* CoreGraphics.framework */; };
@@ -102,6 +105,10 @@
 		CEAFB0151747D0CA00C88250 /* ReplyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyData.h; sourceTree = "<group>"; };
 		CEAFB0161747D0CA00C88250 /* ReplyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplyData.m; sourceTree = "<group>"; };
 		CEAFB0181747D68200C88250 /* Information.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Information.plist; sourceTree = "<group>"; };
+		CEAFB01A1747EDDA00C88250 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header.png; path = Gekklist/header.png; sourceTree = "<group>"; };
+		CEAFB01C1747EF3900C88250 /* header1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header1.png; path = Gekklist/header1.png; sourceTree = "<group>"; };
+		CEAFB01E1747F95400C88250 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
+		CEAFB01F1747F95400C88250 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
 		CEF99A8D1746E14400DC0598 /* GeekList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF99A901746E14400DC0598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEF99A921746E14400DC0598 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -147,11 +154,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D835BC2F174769F400398B05 /* QuartzCore.framework in Frameworks */,
 				CE8E275F1747BDF600042641 /* libxml2.2.dylib in Frameworks */,
 				CE8E275D1747BDC200042641 /* libxml2.dylib in Frameworks */,
 				CE8E24B11747A92300042641 /* MapKit.framework in Frameworks */,
 				D835BC31174769FF00398B05 /* SystemConfiguration.framework in Frameworks */,
-				D835BC2F174769F400398B05 /* QuartzCore.framework in Frameworks */,
 				D835BC2D174769E800398B05 /* OpenGLES.framework in Frameworks */,
 				D835BC2B174769CE00398B05 /* libz.dylib in Frameworks */,
 				D835BC29174769AF00398B05 /* libicucore.dylib in Frameworks */,
@@ -215,6 +222,8 @@
 		CEF99A841746E14400DC0598 = {
 			isa = PBXGroup;
 			children = (
+				CEAFB01C1747EF3900C88250 /* header1.png */,
+				CEAFB01A1747EDDA00C88250 /* header.png */,
 				CE8E275E1747BDF600042641 /* libxml2.2.dylib */,
 				CE8E275C1747BDC200042641 /* libxml2.dylib */,
 				CE8E24B01747A92300042641 /* MapKit.framework */,
@@ -282,6 +291,8 @@
 				CEF99A971746E14400DC0598 /* Supporting Files */,
 				CE6F025F1746F47F000A0DC7 /* EntryViewController.h */,
 				CE6F02601746F47F000A0DC7 /* EntryViewController.m */,
+				CEAFB01E1747F95400C88250 /* CommunityViewController.h */,
+				CEAFB01F1747F95400C88250 /* CommunityViewController.m */,
 			);
 			path = Gekklist;
 			sourceTree = "<group>";
@@ -416,6 +427,8 @@
 				CE6F02771747494D000A0DC7 /* user.png in Resources */,
 				CE8E24AF1747A48B00042641 /* GoogleMaps.bundle in Resources */,
 				CEAFB0191747D68200C88250 /* Information.plist in Resources */,
+				CEAFB01B1747EDDA00C88250 /* header.png in Resources */,
+				CEAFB01D1747EF3900C88250 /* header1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +472,7 @@
 				D81C64231747625B003F7D27 /* MapViewController.m in Sources */,
 				CEAFB0131747CFA100C88250 /* AllData.m in Sources */,
 				CEAFB0171747D0CA00C88250 /* ReplyData.m in Sources */,
+				CEAFB0201747F95400C88250 /* CommunityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

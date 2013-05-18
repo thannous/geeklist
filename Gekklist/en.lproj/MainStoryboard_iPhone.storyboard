@@ -156,11 +156,22 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBQ-hB-50d">
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="avA-3M-0UN">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="82" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="avA-3M-0UN">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="279" type="user" id="hIq-LX-bQf"/>
+                                            <constraint firstAttribute="height" constant="244" id="fTB-ax-sBa"/>
                                         </constraints>
+                                        <prototypes>
+                                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="news2" rowHeight="82" id="Pqu-6D-LaJ">
+                                                <rect key="frame" x="0.0" y="22" width="320" height="82"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </view>
+                                            </tableViewCell>
+                                        </prototypes>
                                     </tableView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fhH-p5-6Hm">
                                         <constraints>
@@ -188,52 +199,40 @@
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdm-Mg-xet">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="98" id="Ob0-ah-BSg"/>
-                                                    <constraint firstAttribute="height" constant="120" id="rYJ-Ws-SLa"/>
+                                                    <constraint firstAttribute="height" constant="63" id="69A-Ns-dae"/>
+                                                    <constraint firstAttribute="width" constant="63" id="kMH-nk-dyc"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="LVZVZVEZVRZVZ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MId-Xe-XVf">
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MId-Xe-XVf">
+                                                <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f2p-Dg-ySA">
-                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="BUI-mN-wci"/>
-                                                    <constraint firstAttribute="width" constant="204" id="zUX-V9-sac"/>
-                                                </constraints>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="vdm-Mg-xet" firstAttribute="leading" secondItem="2gW-dS-RiX" secondAttribute="leading" type="default" id="8rn-jf-wfl"/>
-                                            <constraint firstItem="vdm-Mg-xet" firstAttribute="bottom" secondItem="f2p-Dg-ySA" secondAttribute="bottom" type="default" id="Dez-AC-6e1"/>
-                                            <constraint firstItem="f2p-Dg-ySA" firstAttribute="top" secondItem="MId-Xe-XVf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ML1-FQ-5XS"/>
+                                            <constraint firstAttribute="height" constant="90" type="user" id="624-Tr-0h8"/>
+                                            <constraint firstItem="vdm-Mg-xet" firstAttribute="top" secondItem="2gW-dS-RiX" secondAttribute="top" constant="12" id="J1Y-kt-Izx"/>
+                                            <constraint firstItem="vdm-Mg-xet" firstAttribute="leading" secondItem="2gW-dS-RiX" secondAttribute="leading" constant="14" id="bd1-Pa-Hxp"/>
                                             <constraint firstItem="MId-Xe-XVf" firstAttribute="leading" secondItem="2gW-dS-RiX" secondAttribute="leading" constant="145" id="ijx-dH-wIk"/>
-                                            <constraint firstItem="f2p-Dg-ySA" firstAttribute="leading" secondItem="vdm-Mg-xet" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="qk5-ha-cc3"/>
                                             <constraint firstItem="MId-Xe-XVf" firstAttribute="top" secondItem="2gW-dS-RiX" secondAttribute="top" constant="20" symbolic="YES" type="default" id="vIj-fP-wD1"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="U2A-zq-lcJ" firstAttribute="top" secondItem="avA-3M-0UN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0n6-Qt-ayO"/>
                                     <constraint firstAttribute="trailing" secondItem="2gW-dS-RiX" secondAttribute="trailing" type="user" id="4nb-vs-3Cd"/>
-                                    <constraint firstItem="2gW-dS-RiX" firstAttribute="top" secondItem="FBQ-hB-50d" secondAttribute="top" type="default" id="6qT-0M-F6h"/>
+                                    <constraint firstItem="2gW-dS-RiX" firstAttribute="top" secondItem="FBQ-hB-50d" secondAttribute="top" type="user" id="6qT-0M-F6h"/>
+                                    <constraint firstItem="U2A-zq-lcJ" firstAttribute="bottom" secondItem="fhH-p5-6Hm" secondAttribute="bottom" type="default" id="AHj-qE-wDm"/>
                                     <constraint firstItem="avA-3M-0UN" firstAttribute="trailing" secondItem="FBQ-hB-50d" secondAttribute="trailing" type="default" id="CAe-7t-7N3"/>
-                                    <constraint firstItem="avA-3M-0UN" firstAttribute="top" secondItem="2gW-dS-RiX" secondAttribute="bottom" constant="-2" type="user" id="Ew5-fn-U08"/>
+                                    <constraint firstItem="fhH-p5-6Hm" firstAttribute="top" secondItem="avA-3M-0UN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="DeF-jm-IVm"/>
                                     <constraint firstItem="U2A-zq-lcJ" firstAttribute="trailing" secondItem="FBQ-hB-50d" secondAttribute="trailing" type="default" id="IKP-Wu-e5t"/>
-                                    <constraint firstItem="U2A-zq-lcJ" firstAttribute="bottom" secondItem="FBQ-hB-50d" secondAttribute="bottom" type="default" id="Lcr-tb-NrI"/>
                                     <constraint firstItem="fhH-p5-6Hm" firstAttribute="leading" secondItem="FBQ-hB-50d" secondAttribute="leading" type="default" id="PjK-lO-fTf"/>
-                                    <constraint firstItem="U2A-zq-lcJ" firstAttribute="top" secondItem="avA-3M-0UN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="QW5-np-ToG"/>
                                     <constraint firstAttribute="height" constant="455" type="user" id="RPN-hY-COy"/>
-                                    <constraint firstItem="fhH-p5-6Hm" firstAttribute="bottom" secondItem="FBQ-hB-50d" secondAttribute="bottom" type="user" id="S6K-Xd-G22"/>
                                     <constraint firstItem="avA-3M-0UN" firstAttribute="leading" secondItem="FBQ-hB-50d" secondAttribute="leading" type="default" id="Vzo-Wr-6IR"/>
-                                    <constraint firstItem="fhH-p5-6Hm" firstAttribute="top" secondItem="avA-3M-0UN" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="kgM-Fb-4Kv"/>
                                     <constraint firstItem="2gW-dS-RiX" firstAttribute="leading" secondItem="FBQ-hB-50d" secondAttribute="leading" type="user" id="m2j-cL-Lkd"/>
+                                    <constraint firstAttribute="bottom" secondItem="fhH-p5-6Hm" secondAttribute="bottom" constant="86" id="zhe-qT-AlJ"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -251,6 +250,8 @@
                     <navigationItem key="navigationItem" id="IRA-QP-1ig"/>
                     <connections>
                         <outlet property="InfoMicro" destination="2gW-dS-RiX" id="ve6-3E-8sU"/>
+                        <outlet property="Nom" destination="MId-Xe-XVf" id="yJQ-vc-Kub"/>
+                        <outlet property="portrait" destination="vdm-Mg-xet" id="cIs-lJ-PrM"/>
                         <outlet property="scrollView" destination="2eM-b2-zAE" id="g8C-NC-b7t"/>
                         <outlet property="textField" destination="fhH-p5-6Hm" id="TL1-uW-gRe"/>
                     </connections>
@@ -268,8 +269,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="aQ4-Pg-wCm">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.24768902011666591" green="0.72282608695652173" blue="0.174322116220156" alpha="0.0" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" red="0.17454066822422282" green="0.55434782608695654" blue="0.1017764645809781" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="dwW-b5-uee" kind="relationship" relationship="viewControllers" id="Mcq-dL-omN"/>
@@ -314,6 +315,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailsViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="InfoMicro" candidateClass="UIView"/>
+                <relationship kind="outlet" name="Nom" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="portrait" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
                 <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
             </relationships>
@@ -331,6 +334,7 @@
         <class className="MicrosControllernav" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MicrosControllernav.h"/>
             <relationships>
+                <relationship kind="outlet" name="controller" candidateClass="DetailsViewController"/>
                 <relationship kind="outlet" name="tablevue" candidateClass="UITableView"/>
             </relationships>
         </class>

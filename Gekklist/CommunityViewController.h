@@ -1,16 +1,13 @@
 //
-//  MapViewController.h
+//  CommunityViewController.h
 //  geeklist
 //
-//  Created by Loïc Saint-Roch on 18/05/13.
+//  Created by Kévin Mondésir on 18/05/13.
 //  Copyright (c) 2013 GeekList. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
 
-@interface MapViewController : UIViewController
+@interface CommunityViewController : UIViewController
 @property (nonatomic,assign)NSMutableArray * data;
 @end
-
-

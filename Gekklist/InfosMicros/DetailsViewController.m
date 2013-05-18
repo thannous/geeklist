@@ -7,7 +7,7 @@
 //
 
 #import "DetailsViewController.h"
-
+#import "MicrosControllernav.h"
 @implementation DetailsViewController
 @synthesize image;
 @synthesize titre;
@@ -18,7 +18,18 @@
 	[scrollView scrollsToTop];
 	InfoMicro.backgroundColor=[UIColor colorWithRed:0.02 green:0.7 blue:0.3 alpha:1];
 	[[self navigationController] setNavigationBarHidden:NO animated:YES];
-	//InfoMicro.backgroundColor=[[UIColor alloc]initWithPatternImage:[UIImage imageNamed:@"test copie.jpg"]];
+	InfoMicro.backgroundColor=[[UIColor alloc]initWithPatternImage:[UIImage imageNamed:@"header1.png"]];
+	portrait.layer.masksToBounds=YES;
+	portrait.layer.cornerRadius=30.0;
+	NSURL *url = [NSURL URLWithString:@"http://lorempixel.com/50/50/"];
+	NSData *data2 = [NSData dataWithContentsOfURL:url];
+	UIImage *img = [[UIImage alloc] initWithData:data2];
+	[portrait setImage:img];
+	
+}
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+	[self setData:[(MicrosControllernav *)sender data]];
 }
 - (void)viewWillAppear:(BOOL)animated
 {

@@ -40,19 +40,30 @@
 	NSMutableDictionary *
 	variableInfo=[[NSMutableDictionary alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Information" ofType:@"plist"]];
 	NSEnumerator *iterator=[variableInfo keyEnumerator];
-	NSEnumerator *iterator2;
 	NSString * key;
-	NSString * key2;
 	AllData * courante;
 	ReplyData * reply;
+	int imax;
+	int i;
+	id temp;
 	while ((key=[iterator nextObject])!=Nil) {
-		courante=[[AllData alloc]init];
-		iterator2=[(NSDictionary *)[variableInfo objectForKey:key]keyEnumerator];
-		while ((key2=[iterator2 nextObject])!=Nil) {
-			[courante addChild:[[Donnee alloc]initWithName:key2 AndValue:[[variableInfo objectForKey:key] objectForKey:key2]]];
+		
+		NSLog(@"%@\n",key);
+		temp=[variableInfo objectForKey:key];
+		courante=[[AllData alloc]initWithSender:[temp objectForKey:@"Sender"] Title:[temp objectForKey:@"Titre"] Comment:[temp objectForKey:@"Comment"] Coordinate:CGPointMake([[[[temp objectForKey:@"Coordinate"]componentsSeparatedByString:@" "]objectAtIndex:0]floatValue], [[[[temp objectForKey:@"Coordinate"]componentsSeparatedByString:@" "]objectAtIndex:1]floatValue]) PhotoURL:[temp objectForKey:@"PhotoURL"]];
+		imax=[[temp objectForKey:@"Replys"]count];
+		i=0;
+		while (i<imax) {
+			reply=[[ReplyData alloc]initWith:[[[temp objectForKey:@"Replys"]objectAtIndex:i]objectForKey:@"Sender"]
+									 Comment:[[[temp objectForKey:@"Replys"]objectAtIndex:i]objectForKey:@"Comment"]
+									PhotoURL:[[[temp objectForKey:@"Replys"]objectAtIndex:i]objectForKey:@"PhotoURL"]];
+			[[courante reply]addObject:reply];
+			i++;
 		}
-		[_donnees addObject:courante];
+		[data addObject:courante];
+		
 	}
+	NSLog(@"%@",data);
 	
 }
 -(void)viewWillAppear:(BOOL)animated
@@ -65,13 +76,19 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-	return [_lesgens count];
+	return [data count];
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	UITableViewCell * cell= [[UITableViewCell alloc]initWithStyle:2 reuseIdentifier:@"News"];
-	cell.textLabel.text=[_lesgens objectAtIndex:[indexPath indexAtPosition:1]];
+	UITableViewCell * cell= [[UITableViewCell alloc]initWithStyle:3 reuseIdentifier:@"News"];
+	cell.textLabel.text=[(AllData *)[data objectAtIndex:[indexPath indexAtPosition:1]]title];
 	UIButton * button=[[UIButton alloc]initWithFrame:CGRectMake(160, 0, 60, 60)];
+	
+	NSURL *url = [NSURL URLWithString:[[data objectAtIndex:[indexPath indexAtPosition:1]]photoURL]];
+	NSLog(@"%@",[[data objectAtIndex:[indexPath indexAtPosition:1]]photoURL]);
+	NSData *data2 = [NSData dataWithContentsOfURL:url];
+	UIImage *img = [[UIImage alloc] initWithData:data2];
+	[cell.imageView setImage: img];
 	[cell setAccessoryView:button];
 	[button addTarget:self action:@selector(tapped:) forControlEvents:UIControlEventTouchUpInside];
 	return cell;
@@ -80,16 +97,16 @@
 {
 	state=[[[(UIButton *)sender titleLabel]text]intValue];
 	[self performSegueWithIdentifier:@"details" sender:self];
-}
+}/*
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
 	if([[segue identifier] isEqualToString:@"details"]){
 		controller=[segue destinationViewController];
-		[controller setCommentaire:[_lesgens objectAtIndex:state]]  ;
+		//[controller setCommentaire:[ objectAtIndex:state]];
 		
 		
 	}
-}
+}*/
 -(void)getInfo
 {
 	
