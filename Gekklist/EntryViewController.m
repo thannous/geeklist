@@ -7,7 +7,7 @@
 //
 
 #import "EntryViewController.h"
-//#import "GeeklistManager.h"
+//#import	"GeeklistLib/GeeklistManager.h"
 
 @implementation EntryViewController
 -(void)viewDidLoad

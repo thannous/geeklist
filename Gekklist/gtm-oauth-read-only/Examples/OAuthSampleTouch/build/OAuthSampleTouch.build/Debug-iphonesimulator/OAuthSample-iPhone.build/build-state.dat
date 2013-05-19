@@ -1,0 +1,401 @@
+TOAuthSample-iPhone
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/Info.plist Info-iPhone.plist
+cCompileXIB /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewTouch.xib
+cCompileXIB /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainTouch.xib
+cCompileXIB /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainiPad.xib
+cProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch.pth prefixTouch.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-gqlhbpikbuwgosgqfttcuzphxzfz/prefixTouch.pch.pth prefixTouch.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/mainTouch.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/mainTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleAppDelegateTouch.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleRootViewControllerTouch.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c000000005196A1B00000000000000110
+t1368826288
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000511808C00000000000228FE0
+t1360529600
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000511808C300000000003DDFA0
+t1360529603
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000511808C200000000000015F7
+t1360529602
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000511808CA000000000006E360
+t1360529610
+s451424
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000511808CA000000000006CC50
+t1360529610
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000511808CB0000000000000E8D
+t1360529611
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000511808CE0000000000AB6230
+t1360529614
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000511808EE0000000000001B73
+t1360529646
+s7027
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../HTTPFetcher/GTMHTTPFetcher.m
+c000000005196ABB2000000000000FD06
+t1368828850
+s64774
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.m
+c000000005196ABAE0000000000009FE7
+t1368828846
+s40935
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthSignIn.m
+c000000005196ABAE0000000000003E52
+t1368828846
+s15954
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewControllerTouch.m
+c000000005196ABAE0000000000006ED1
+t1368828846
+s28369
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewTouch.xib
+c000000005196ABAE000000000000793F
+t1368828846
+s31039
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.m
+c000000005196ABAF00000000000004D0
+t1368828847
+s1232
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainTouch.xib
+c000000005196ABAF0000000000007525
+t1368828847
+s29989
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainiPad.xib
+c000000005196ABAF0000000000005C55
+t1368828847
+s23637
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m
+c000000005196ABAF0000000000002FB9
+t1368828847
+s12217
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app.dSYM
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/GTMOAuthViewTouch.nib
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/Info.plist
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/OAuthSample-iPhone
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/OAuthSampleMainTouch.nib
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/OAuthSampleMainiPad.nib
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/PkgInfo
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/GTMHTTPFetcher.o
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/GTMOAuthAuthentication.o
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/GTMOAuthSignIn.o
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/GTMOAuthViewControllerTouch.o
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSample-iPhone.LinkFileList
+c0000000051978A9D00000000000005CC
+t1368885917
+s1484
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleAppDelegateTouch.o
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleRootViewControllerTouch.o
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/mainTouch.o
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/StaticAnalyzer/OAuthSampleTouch/OAuthSample-iPhone/normal/i386/GTMHTTPFetcher.plist
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/StaticAnalyzer/OAuthSampleTouch/OAuthSample-iPhone/normal/i386/GTMOAuthAuthentication.plist
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/StaticAnalyzer/OAuthSampleTouch/OAuthSample-iPhone/normal/i386/GTMOAuthSignIn.plist
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/StaticAnalyzer/OAuthSampleTouch/OAuthSample-iPhone/normal/i386/GTMOAuthViewControllerTouch.plist
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/StaticAnalyzer/OAuthSampleTouch/OAuthSample-iPhone/normal/i386/OAuthSampleAppDelegateTouch.plist
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/StaticAnalyzer/OAuthSampleTouch/OAuthSample-iPhone/normal/i386/OAuthSampleRootViewControllerTouch.plist
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/StaticAnalyzer/OAuthSampleTouch/OAuthSample-iPhone/normal/i386/mainTouch.plist
+t2
+s0
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/mainTouch.m
+c000000005196ABAF0000000000000335
+t1368828847
+s821
+
+N/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/prefixTouch.pch
+c000000005196ABAF00000000000002C8
+t1368828847
+s712
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch.pth
+t2
+s0
+
+N/var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-gqlhbpikbuwgosgqfttcuzphxzfz/prefixTouch.pch.pth
+t2
+s0
+
+NInfo-iPhone.plist
+c000000005196ABAF0000000000000393
+t1368828847
+s915
+
+CAnalyze /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../HTTPFetcher/GTMHTTPFetcher.m
+r0
+
+CAnalyze /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.m
+r0
+
+CAnalyze /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthSignIn.m
+r0
+
+CAnalyze /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewControllerTouch.m
+r0
+
+CAnalyze /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.m
+r0
+
+CAnalyze /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m
+r0
+
+CAnalyze /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/mainTouch.m
+r0
+
+CBuild AST from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../HTTPFetcher/GTMHTTPFetcher.m
+r0
+
+CBuild AST from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.m
+r0
+
+CBuild AST from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthSignIn.m
+r0
+
+CBuild AST from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewControllerTouch.m
+r0
+
+CBuild AST from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.m
+r0
+
+CBuild AST from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m
+r0
+
+CBuild AST from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/mainTouch.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2e3c2f1cc247b741^0058591dc247b741^---0#1#0#--18"Check dependencies36"3AD4CB73-7828-41E2-A0B0-2A493CBCBCF9-
+
+CCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/GTMHTTPFetcher.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../HTTPFetcher/GTMHTTPFetcher.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/GTMOAuthAuthentication.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/GTMOAuthSignIn.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthSignIn.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/GTMOAuthViewControllerTouch.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewControllerTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleAppDelegateTouch.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390578724.510593
+e390578724.891875
+r1
+xCompileC
+xbuild/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleAppDelegateTouch.o
+x/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.ma2ef8224c247b741^fc51e424c247b741^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.m0000000000000000^4445"CompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleAppDelegateTouch.o OAuthSampleAppDelegateTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.2 -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-generated-files.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-own-target-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-all-target-headers.hmap -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-project-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources/i386 -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources -F/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator -DDEBUG=1 -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch -MMD -MT dependencies -MF /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleAppDelegateTouch.d --serialize-diagnostics /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleAppDelegateTouch.dia -c /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleAppDelegateTouch.m -o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleAppDelegateTouch.o36"7C0EC3ED-525F-42EE-80BC-16467C18A05C-
+
+CCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleRootViewControllerTouch.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390578724.893236
+e390578725.047049
+r0
+xCompileC
+xbuild/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleRootViewControllerTouch.o
+x/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m:18:
+oIn file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewControllerTouch.h:71:
+o/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.h:137:39: error: property 'userEmail' 'copy' attribute does not match the property inherited from 'GTMFetcherAuthorizationProtocol' [-Werror]
+o@property (nonatomic, copy) NSString *userEmail;
+o                                      ^
+o/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.h:137:39: error: property 'userEmail' 'atomic' attribute does not match the property inherited from 'GTMFetcherAuthorizationProtocol' [-Werror]
+o/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.h:149:38: error: property 'canAuthorize' 'atomic' attribute does not match the property inherited from 'GTMFetcherAuthorizationProtocol' [-Werror]
+o@property (nonatomic, readonly) BOOL canAuthorize;
+o                                     ^
+o3 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m4ad3e424c247b741^0c010c25c247b741^-1338"In file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m:18:In file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewControllerTouch.h:71:/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.h:137:39: error: property 'userEmail' 'copy' attribute does not match the property inherited from 'GTMFetcherAuthorizationProtocol' [-Werror]@property (nonatomic, copy) NSString *userEmail;                                      ^/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.h:137:39: error: property 'userEmail' 'atomic' attribute does not match the property inherited from 'GTMFetcherAuthorizationProtocol' [-Werror]/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/GTMOAuthAuthentication.h:149:38: error: property 'canAuthorize' 'atomic' attribute does not match the property inherited from 'GTMFetcherAuthorizationProtocol' [-Werror]@property (nonatomic, readonly) BOOL canAuthorize;                                     ^3 errors generated.3(36%IDEClangDiagnosticActivityLogMessage2@114"Property 'userEmail' 'copy' attribute does not match the property inherited from 'GTMFetcherAuthorizationProtocol'-390578725#18446744073709551615#0#2(2@154"In file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m:18:-390578725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@144"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m0000000000000000^17#8#17#8#692#0#30"Apple LLVM compiler 4.2 Notice--2@166"In file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewControllerTouch.h:71:-390578725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@124"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Source/Touch/GTMOAuthViewControllerTouch.h0000000000000000^70#8#70#8#2687#0#30"Apple LLVM compiler 4.2 Notice--2#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Source/GTMOAuthAuthentication.h0000000000000000^136#38#136#38#5453#0#14"Semantic Issue--2@116"Property 'userEmail' 'atomic' attribute does not match the property inherited from 'GTMFetcherAuthorizationProtocol'-390578725#18446744073709551615#0#2(2@154"In file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m:18:-390578725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@144"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m0000000000000000^17#8#17#8#692#0#30"Apple LLVM compiler 4.2 Notice--2@166"In file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewControllerTouch.h:71:-390578725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@124"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Source/Touch/GTMOAuthViewControllerTouch.h0000000000000000^70#8#70#8#2687#0#30"Apple LLVM compiler 4.2 Notice--2#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Source/GTMOAuthAuthentication.h0000000000000000^136#38#136#38#5453#0#14"Semantic Issue--2@119"Property 'canAuthorize' 'atomic' attribute does not match the property inherited from 'GTMFetcherAuthorizationProtocol'-390578725#18446744073709551615#0#2(2@154"In file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m:18:-390578725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@144"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m0000000000000000^17#8#17#8#692#0#30"Apple LLVM compiler 4.2 Notice--2@166"In file included from /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewControllerTouch.h:71:-390578725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@124"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Source/Touch/GTMOAuthViewControllerTouch.h0000000000000000^70#8#70#8#2687#0#30"Apple LLVM compiler 4.2 Notice--2#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Source/GTMOAuthAuthentication.h0000000000000000^148#37#148#37#5974#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@144"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m0000000000000000^4487"CompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleRootViewControllerTouch.o OAuthSampleRootViewControllerTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.2 -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-generated-files.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-own-target-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-all-target-headers.hmap -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-project-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources/i386 -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources -F/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator -DDEBUG=1 -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch -MMD -MT dependencies -MF /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleRootViewControllerTouch.d --serialize-diagnostics /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleRootViewControllerTouch.dia -c /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleRootViewControllerTouch.m -o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/OAuthSampleRootViewControllerTouch.o36"0D1A0435-4FDE-40AC-BBAD-3F37F4B27479-
+
+CCompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/mainTouch.o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/mainTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390578724.510054
+e390578724.676303
+r1
+xCompileC
+xbuild/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/mainTouch.o
+x/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/mainTouch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/mainTouch.m2fdb8224c247b741^7f2fad24c247b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/mainTouch.m0000000000000000^4337"CompileC build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/mainTouch.o mainTouch.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.2 -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-generated-files.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-own-target-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-all-target-headers.hmap -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-project-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources/i386 -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources -F/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator -DDEBUG=1 -include /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch -MMD -MT dependencies -MF /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/mainTouch.d --serialize-diagnostics /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/mainTouch.dia -c /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/mainTouch.m -o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/Objects-normal/i386/mainTouch.o36"E7CC9A6C-5031-48B5-81AB-E50060A77E18-
+
+CCompileXIB /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewTouch.xib
+s390578717.577719
+e390578722.262839
+r1
+xCompileXIB
+x/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewTouch.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compiling /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewTouch.xibda04941dc247b741^3d5f4322c247b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewTouch.xib0000000000000000^1088"CompileXIB ../../Source/Touch/GTMOAuthViewTouch.xib    cd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/GTMOAuthViewTouch.nib /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/../../Source/Touch/GTMOAuthViewTouch.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"F409F651-AEC0-4308-A846-313ED1B6442B-
+
+CCompileXIB /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainTouch.xib
+s390578717.578672
+e390578722.737190
+r1
+xCompileXIB
+x/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainTouch.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compiling /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainTouch.xib003a941dc247b741^7ac8bc22c247b741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainTouch.xib0000000000000000^1059"CompileXIB OAuthSampleMainTouch.xib    cd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/OAuthSampleMainTouch.nib /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainTouch.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"6731C61D-9A88-47D9-8AFE-FC331A84D24A-
+
+CCompileXIB /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainiPad.xib
+s390578722.266081
+e390578723.320008
+r1
+xCompileXIB
+x/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainiPad.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compiling /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainiPad.xib9b394422c247b741^59fd5123c247b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainiPad.xib0000000000000000^1056"CompileXIB OAuthSampleMainiPad.xib    cd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/OAuthSampleMainiPad.nib /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/OAuthSampleMainiPad.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"59A8BE3F-EC00-47C8-8E8C-4F3B0EF29E6B-
+
+CGenerateDSYMFile /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app.dSYM /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/OAuthSample-iPhone
+r0
+
+CLd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/OAuthSample-iPhone normal i386
+r0
+
+CProcessInfoPlistFile /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/Info.plist Info-iPhone.plist
+s390578717.378286
+e390578717.547826
+r1
+xProcessInfoPlistFile
+x/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/Info.plist
+xInfo-iPhone.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process Info-iPhone.plistbbef601dc247b741^1e4e8c1dc247b741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/Info-iPhone.plist0000000000000000^824"ProcessInfoPlistFile build/Debug-iphonesimulator/OAuthSample-iPhone.app/Info.plist Info-iPhone.plist    cd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info-iPhone.plist -genpkginfo /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app/Info.plist36"CDD5765F-BE5D-4A7D-AB68-6831760374DA-
+
+CProcessPCH /Users/reborn95/Library/Developer/Xcode/DerivedData/OAuthSampleTouch-frkoqsoqdwxeaufvtgiaxcnpyojk/Index/PrecompiledHeaders/prefixTouch-gfajtklwwggdavapcofyyslqwarn_ast/prefixTouch.pch.pth prefixTouch.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch.pth prefixTouch.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390578723.328878
+e390578724.502632
+r1
+xProcessPCH
+x/var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch.pth
+xprefixTouch.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile prefixTouch.pche0675423c247b741^2cd68024c247b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/prefixTouch.pch0000000000000000^4102"ProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch.pth prefixTouch.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=3.2 -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-generated-files.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-own-target-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-all-target-headers.hmap -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-project-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources/i386 -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources -F/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator -DDEBUG=1 --serialize-diagnostics /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch.dia -c /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/prefixTouch.pch -o /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch.pth -MMD -MT dependencies -MF /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-fidmsjpvshzldvahdulqwitugxay/prefixTouch.pch.d36"FD78ABAE-492E-4F23-81F4-995340C2FEFC-
+
+CProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-gqlhbpikbuwgosgqfttcuzphxzfz/prefixTouch.pch.pth prefixTouch.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s390578723.329939
+e390578724.503027
+r1
+xProcessPCH
+x/var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-gqlhbpikbuwgosgqfttcuzphxzfz/prefixTouch.pch.pth
+xprefixTouch.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile prefixTouch.pch4e9c5423c247b741^7bdb8024c247b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/prefixTouch.pch0000000000000000^4502"ProcessPCH /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-gqlhbpikbuwgosgqfttcuzphxzfz/prefixTouch.pch.pth prefixTouch.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=3.2 -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-generated-files.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-own-target-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-all-target-headers.hmap -iquote /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/OAuthSample-iPhone-project-headers.hmap -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources/i386 -I/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/OAuthSampleTouch.build/Debug-iphonesimulator/OAuthSample-iPhone.build/DerivedSources -F/Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator -DDEBUG=1 -D__clang_analyzer__ -c /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/prefixTouch.pch -o /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-gqlhbpikbuwgosgqfttcuzphxzfz/prefixTouch.pch.pth -MMD -MT dependencies -MF /var/folders/rq/g88v5g2d7cs4z1p5hh9lv76h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prefixTouch-gqlhbpikbuwgosgqfttcuzphxzfz/prefixTouch.pch.d36"12D776F0-AE6F-424A-A682-46FC50AB3AEA-
+
+CTouch /Users/reborn95/Desktop/BemyApp/gekk/Gekklist/gtm-oauth-read-only/Examples/OAuthSampleTouch/build/Debug-iphonesimulator/OAuthSample-iPhone.app
+r0
+

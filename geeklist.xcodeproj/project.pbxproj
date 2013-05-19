@@ -92,6 +92,68 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE2FF0E717492B3E000CFE03 /* GeeklistLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeeklistLib-Prefix.pch"; sourceTree = "<group>"; };
+		CE2FF0E817492B3E000CFE03 /* GeeklistLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeeklistLib.h; sourceTree = "<group>"; };
+		CE2FF0E917492B3E000CFE03 /* GeeklistLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeeklistLib.m; sourceTree = "<group>"; };
+		CE2FF0EA17492B3E000CFE03 /* GeeklistManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeeklistManager.h; sourceTree = "<group>"; };
+		CE2FF0EB17492B3E000CFE03 /* GeeklistManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeeklistManager.m; sourceTree = "<group>"; };
+		CE2FF0EC17492B3E000CFE03 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		CE2FF0ED17492B3E000CFE03 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		CE2FF0EE17492B3E000CFE03 /* NSString+HTML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		CE2FF0EF17492B3E000CFE03 /* NSString+HTML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		CE2FF0F217492B3F000CFE03 /* Base64Transcoder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		CE2FF0F317492B3F000CFE03 /* Base64Transcoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		CE2FF0F417492B3F000CFE03 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		CE2FF0F517492B3F000CFE03 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		CE2FF0F617492B3F000CFE03 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		CE2FF0F717492B3F000CFE03 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		CE2FF0F817492B3F000CFE03 /* NSURL+Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		CE2FF0F917492B3F000CFE03 /* NSURL+Base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		CE2FF0FA17492B3F000CFE03 /* OAAsynchronousDataFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAAsynchronousDataFetcher.h; sourceTree = "<group>"; };
+		CE2FF0FB17492B3F000CFE03 /* OAAsynchronousDataFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAAsynchronousDataFetcher.m; sourceTree = "<group>"; };
+		CE2FF0FC17492B3F000CFE03 /* OAConsumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		CE2FF0FD17492B3F000CFE03 /* OAConsumer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		CE2FF0FE17492B3F000CFE03 /* OADataFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		CE2FF0FF17492B3F000CFE03 /* OADataFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		CE2FF10017492B3F000CFE03 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		CE2FF10117492B3F000CFE03 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		CE2FF10217492B3F000CFE03 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		CE2FF10317492B3F000CFE03 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		CE2FF10417492B3F000CFE03 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		CE2FF10517492B3F000CFE03 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		CE2FF10617492B3F000CFE03 /* OARequestParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		CE2FF10717492B3F000CFE03 /* OARequestParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		CE2FF10817492B3F000CFE03 /* OAServiceTicket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		CE2FF10917492B3F000CFE03 /* OAServiceTicket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		CE2FF10A17492B3F000CFE03 /* OASignatureProviding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		CE2FF10B17492B3F000CFE03 /* OAToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		CE2FF10C17492B3F000CFE03 /* OAToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		CE2FF10D17492B3F000CFE03 /* OAuthConsumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		CE2FF10F17492B3F000CFE03 /* NSObject+SBJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		CE2FF11017492B3F000CFE03 /* NSObject+SBJson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		CE2FF11117492B3F000CFE03 /* SBJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		CE2FF11217492B3F000CFE03 /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		CE2FF11317492B3F000CFE03 /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		CE2FF11417492B3F000CFE03 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		CE2FF11517492B3F000CFE03 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		CE2FF11617492B3F000CFE03 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		CE2FF11717492B3F000CFE03 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		CE2FF11817492B3F000CFE03 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		CE2FF11917492B3F000CFE03 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		CE2FF11A17492B3F000CFE03 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		CE2FF11B17492B3F000CFE03 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		CE2FF11C17492B3F000CFE03 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		CE2FF11D17492B3F000CFE03 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		CE2FF11E17492B3F000CFE03 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		CE2FF11F17492B3F000CFE03 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		CE2FF12017492B3F000CFE03 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		CE2FF12117492B3F000CFE03 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		CE2FF12217492B3F000CFE03 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		CE2FF12317492B3F000CFE03 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		CE2FF12417492B3F000CFE03 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		CE2FF12517492B3F000CFE03 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		CE2FF12617492B3F000CFE03 /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		CE2FF12717492B3F000CFE03 /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		CE6F025F1746F47F000A0DC7 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
 		CE6F02601746F47F000A0DC7 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
 		CE6F026617470481000A0DC7 /* MicrosControllernav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicrosControllernav.h; path = InfosMicros/MicrosControllernav.h; sourceTree = "<group>"; };
@@ -209,6 +271,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2FF0E617492B3E000CFE03 /* GeeklistLib */ = {
+			isa = PBXGroup;
+			children = (
+				CE2FF0E717492B3E000CFE03 /* GeeklistLib-Prefix.pch */,
+				CE2FF0E817492B3E000CFE03 /* GeeklistLib.h */,
+				CE2FF0E917492B3E000CFE03 /* GeeklistLib.m */,
+				CE2FF0EA17492B3E000CFE03 /* GeeklistManager.h */,
+				CE2FF0EB17492B3E000CFE03 /* GeeklistManager.m */,
+				CE2FF0EC17492B3E000CFE03 /* GTMNSString+HTML.h */,
+				CE2FF0ED17492B3E000CFE03 /* GTMNSString+HTML.m */,
+				CE2FF0EE17492B3E000CFE03 /* NSString+HTML.h */,
+				CE2FF0EF17492B3E000CFE03 /* NSString+HTML.m */,
+				CE2FF0F017492B3E000CFE03 /* OAuthConsumer */,
+				CE2FF10E17492B3F000CFE03 /* SBJSON */,
+			);
+			name = GeeklistLib;
+			path = Gekklist/GeeklistLib;
+			sourceTree = "<group>";
+		};
+		CE2FF0F017492B3E000CFE03 /* OAuthConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				CE2FF0F117492B3E000CFE03 /* Crypto */,
+				CE2FF0F417492B3F000CFE03 /* NSMutableURLRequest+Parameters.h */,
+				CE2FF0F517492B3F000CFE03 /* NSMutableURLRequest+Parameters.m */,
+				CE2FF0F617492B3F000CFE03 /* NSString+URLEncoding.h */,
+				CE2FF0F717492B3F000CFE03 /* NSString+URLEncoding.m */,
+				CE2FF0F817492B3F000CFE03 /* NSURL+Base.h */,
+				CE2FF0F917492B3F000CFE03 /* NSURL+Base.m */,
+				CE2FF0FA17492B3F000CFE03 /* OAAsynchronousDataFetcher.h */,
+				CE2FF0FB17492B3F000CFE03 /* OAAsynchronousDataFetcher.m */,
+				CE2FF0FC17492B3F000CFE03 /* OAConsumer.h */,
+				CE2FF0FD17492B3F000CFE03 /* OAConsumer.m */,
+				CE2FF0FE17492B3F000CFE03 /* OADataFetcher.h */,
+				CE2FF0FF17492B3F000CFE03 /* OADataFetcher.m */,
+				CE2FF10017492B3F000CFE03 /* OAHMAC_SHA1SignatureProvider.h */,
+				CE2FF10117492B3F000CFE03 /* OAHMAC_SHA1SignatureProvider.m */,
+				CE2FF10217492B3F000CFE03 /* OAMutableURLRequest.h */,
+				CE2FF10317492B3F000CFE03 /* OAMutableURLRequest.m */,
+				CE2FF10417492B3F000CFE03 /* OAPlaintextSignatureProvider.h */,
+				CE2FF10517492B3F000CFE03 /* OAPlaintextSignatureProvider.m */,
+				CE2FF10617492B3F000CFE03 /* OARequestParameter.h */,
+				CE2FF10717492B3F000CFE03 /* OARequestParameter.m */,
+				CE2FF10817492B3F000CFE03 /* OAServiceTicket.h */,
+				CE2FF10917492B3F000CFE03 /* OAServiceTicket.m */,
+				CE2FF10A17492B3F000CFE03 /* OASignatureProviding.h */,
+				CE2FF10B17492B3F000CFE03 /* OAToken.h */,
+				CE2FF10C17492B3F000CFE03 /* OAToken.m */,
+				CE2FF10D17492B3F000CFE03 /* OAuthConsumer.h */,
+			);
+			path = OAuthConsumer;
+			sourceTree = "<group>";
+		};
+		CE2FF0F117492B3E000CFE03 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				CE2FF0F217492B3F000CFE03 /* Base64Transcoder.c */,
+				CE2FF0F317492B3F000CFE03 /* Base64Transcoder.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		CE2FF10E17492B3F000CFE03 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				CE2FF10F17492B3F000CFE03 /* NSObject+SBJson.h */,
+				CE2FF11017492B3F000CFE03 /* NSObject+SBJson.m */,
+				CE2FF11117492B3F000CFE03 /* SBJson.h */,
+				CE2FF11217492B3F000CFE03 /* SBJsonParser.h */,
+				CE2FF11317492B3F000CFE03 /* SBJsonParser.m */,
+				CE2FF11417492B3F000CFE03 /* SBJsonStreamParser.h */,
+				CE2FF11517492B3F000CFE03 /* SBJsonStreamParser.m */,
+				CE2FF11617492B3F000CFE03 /* SBJsonStreamParserAccumulator.h */,
+				CE2FF11717492B3F000CFE03 /* SBJsonStreamParserAccumulator.m */,
+				CE2FF11817492B3F000CFE03 /* SBJsonStreamParserAdapter.h */,
+				CE2FF11917492B3F000CFE03 /* SBJsonStreamParserAdapter.m */,
+				CE2FF11A17492B3F000CFE03 /* SBJsonStreamParserState.h */,
+				CE2FF11B17492B3F000CFE03 /* SBJsonStreamParserState.m */,
+				CE2FF11C17492B3F000CFE03 /* SBJsonStreamWriter.h */,
+				CE2FF11D17492B3F000CFE03 /* SBJsonStreamWriter.m */,
+				CE2FF11E17492B3F000CFE03 /* SBJsonStreamWriterAccumulator.h */,
+				CE2FF11F17492B3F000CFE03 /* SBJsonStreamWriterAccumulator.m */,
+				CE2FF12017492B3F000CFE03 /* SBJsonStreamWriterState.h */,
+				CE2FF12117492B3F000CFE03 /* SBJsonStreamWriterState.m */,
+				CE2FF12217492B3F000CFE03 /* SBJsonTokeniser.h */,
+				CE2FF12317492B3F000CFE03 /* SBJsonTokeniser.m */,
+				CE2FF12417492B3F000CFE03 /* SBJsonUTF8Stream.h */,
+				CE2FF12517492B3F000CFE03 /* SBJsonUTF8Stream.m */,
+				CE2FF12617492B3F000CFE03 /* SBJsonWriter.h */,
+				CE2FF12717492B3F000CFE03 /* SBJsonWriter.m */,
+			);
+			path = SBJSON;
+			sourceTree = "<group>";
+		};
 		CE6F02621747010C000A0DC7 /* Info */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +403,7 @@
 		CEF99A841746E14400DC0598 = {
 			isa = PBXGroup;
 			children = (
+				CE2FF0E617492B3E000CFE03 /* GeeklistLib */,
 				CE9B46D21748599B007DC93D /* camera1.png */,
 				CE9B46D31748599C007DC93D /* geoloc1.png */,
 				CE9B46D41748599C007DC93D /* ok1.png */,
