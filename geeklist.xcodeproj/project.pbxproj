@@ -21,6 +21,15 @@
 		CE8E24B11747A92300042641 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E24B01747A92300042641 /* MapKit.framework */; };
 		CE8E275D1747BDC200042641 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E275C1747BDC200042641 /* libxml2.dylib */; };
 		CE8E275F1747BDF600042641 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E275E1747BDF600042641 /* libxml2.2.dylib */; };
+		CE9B46CC17484B03007DC93D /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B46C917484B03007DC93D /* camera.png */; };
+		CE9B46CD17484B03007DC93D /* geoloc.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B46CA17484B03007DC93D /* geoloc.png */; };
+		CE9B46CE17484B03007DC93D /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B46CB17484B03007DC93D /* ok.png */; };
+		CE9B46D117485074007DC93D /* TableNewsMicros.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B46D017485074007DC93D /* TableNewsMicros.m */; };
+		CE9B46D51748599C007DC93D /* camera1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B46D21748599B007DC93D /* camera1.png */; };
+		CE9B46D61748599C007DC93D /* geoloc1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B46D31748599C007DC93D /* geoloc1.png */; };
+		CE9B46D71748599C007DC93D /* ok1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B46D41748599C007DC93D /* ok1.png */; };
+		CE9B46DC1748636A007DC93D /* MicrosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B46DB1748636A007DC93D /* MicrosCell.m */; };
+		CE9B46E0174892FD007DC93D /* MicrosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9B46DF174892FD007DC93D /* MicrosCell.xib */; };
 		CEAFB0131747CFA100C88250 /* AllData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFB0121747CFA100C88250 /* AllData.m */; };
 		CEAFB0171747D0CA00C88250 /* ReplyData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFB0161747D0CA00C88250 /* ReplyData.m */; };
 		CEAFB0191747D68200C88250 /* Information.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAFB0181747D68200C88250 /* Information.plist */; };
@@ -40,7 +49,6 @@
 		CEF99AAA1746E14500DC0598 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AA81746E14500DC0598 /* MainStoryboard_iPhone.storyboard */; };
 		CEF99AAD1746E14500DC0598 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AAB1746E14500DC0598 /* MainStoryboard_iPad.storyboard */; };
 		CEF99AB01746E14500DC0598 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF99AAF1746E14500DC0598 /* ViewController.m */; };
-		CEF99AB81746E14500DC0598 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99AB71746E14500DC0598 /* SenTestingKit.framework */; };
 		CEF99AB91746E14500DC0598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A901746E14400DC0598 /* UIKit.framework */; };
 		CEF99ABA1746E14500DC0598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF99A921746E14400DC0598 /* Foundation.framework */; };
 		CEF99AC21746E14500DC0598 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF99AC01746E14500DC0598 /* InfoPlist.strings */; };
@@ -101,6 +109,17 @@
 		CE8E24B01747A92300042641 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CE8E275C1747BDC200042641 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		CE8E275E1747BDF600042641 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		CE9B46C917484B03007DC93D /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = Gekklist/camera.png; sourceTree = "<group>"; };
+		CE9B46CA17484B03007DC93D /* geoloc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = geoloc.png; path = Gekklist/geoloc.png; sourceTree = "<group>"; };
+		CE9B46CB17484B03007DC93D /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ok.png; path = Gekklist/ok.png; sourceTree = "<group>"; };
+		CE9B46CF17485074007DC93D /* TableNewsMicros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableNewsMicros.h; sourceTree = "<group>"; };
+		CE9B46D017485074007DC93D /* TableNewsMicros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableNewsMicros.m; sourceTree = "<group>"; };
+		CE9B46D21748599B007DC93D /* camera1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera1.png; path = Gekklist/camera1.png; sourceTree = "<group>"; };
+		CE9B46D31748599C007DC93D /* geoloc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = geoloc1.png; path = Gekklist/geoloc1.png; sourceTree = "<group>"; };
+		CE9B46D41748599C007DC93D /* ok1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ok1.png; path = Gekklist/ok1.png; sourceTree = "<group>"; };
+		CE9B46DA1748636A007DC93D /* MicrosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrosCell.h; sourceTree = "<group>"; };
+		CE9B46DB1748636A007DC93D /* MicrosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrosCell.m; sourceTree = "<group>"; };
+		CE9B46DF174892FD007DC93D /* MicrosCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MicrosCell.xib; sourceTree = "<group>"; };
 		CEAFB0111747CFA100C88250 /* AllData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllData.h; sourceTree = "<group>"; };
 		CEAFB0121747CFA100C88250 /* AllData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllData.m; sourceTree = "<group>"; };
 		CEAFB0151747D0CA00C88250 /* ReplyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplyData.h; sourceTree = "<group>"; };
@@ -110,7 +129,6 @@
 		CEAFB01C1747EF3900C88250 /* header1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header1.png; path = Gekklist/header1.png; sourceTree = "<group>"; };
 		CEAFB01E1747F95400C88250 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
 		CEAFB01F1747F95400C88250 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
-		CEAFB0211748144800C88250 /* OAuthConsumer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthConsumer.framework; path = ../OAuthConsumer/build/Debug/OAuthConsumer.framework; sourceTree = "<group>"; };
 		CEAFB0231748154800C88250 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CEF99A8D1746E14400DC0598 /* GeekList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF99A901746E14400DC0598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -130,7 +148,6 @@
 		CEF99AAE1746E14500DC0598 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEF99AAF1746E14500DC0598 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEF99AB61746E14500DC0598 /* GeekListTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeekListTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF99AB71746E14500DC0598 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CEF99ABF1746E14500DC0598 /* GeekListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeekListTests-Info.plist"; sourceTree = "<group>"; };
 		CEF99AC11746E14500DC0598 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEF99AC31746E14500DC0598 /* GekklistTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GekklistTests.h; sourceTree = "<group>"; };
@@ -184,7 +201,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF99AB81746E14500DC0598 /* SenTestingKit.framework in Frameworks */,
 				CEF99AB91746E14500DC0598 /* UIKit.framework in Frameworks */,
 				CEF99ABA1746E14500DC0598 /* Foundation.framework in Frameworks */,
 			);
@@ -200,6 +216,11 @@
 				CE6F026717470481000A0DC7 /* MicrosControllernav.m */,
 				CE6F026F174723BE000A0DC7 /* DetailsViewController.h */,
 				CE6F0270174723BE000A0DC7 /* DetailsViewController.m */,
+				CE9B46CF17485074007DC93D /* TableNewsMicros.h */,
+				CE9B46D017485074007DC93D /* TableNewsMicros.m */,
+				CE9B46DA1748636A007DC93D /* MicrosCell.h */,
+				CE9B46DB1748636A007DC93D /* MicrosCell.m */,
+				CE9B46DF174892FD007DC93D /* MicrosCell.xib */,
 			);
 			name = Info;
 			sourceTree = "<group>";
@@ -226,8 +247,13 @@
 		CEF99A841746E14400DC0598 = {
 			isa = PBXGroup;
 			children = (
+				CE9B46D21748599B007DC93D /* camera1.png */,
+				CE9B46D31748599C007DC93D /* geoloc1.png */,
+				CE9B46D41748599C007DC93D /* ok1.png */,
+				CE9B46C917484B03007DC93D /* camera.png */,
+				CE9B46CA17484B03007DC93D /* geoloc.png */,
+				CE9B46CB17484B03007DC93D /* ok.png */,
 				CEAFB0231748154800C88250 /* Security.framework */,
-				CEAFB0211748144800C88250 /* OAuthConsumer.framework */,
 				CEAFB01C1747EF3900C88250 /* header1.png */,
 				CEAFB01A1747EDDA00C88250 /* header.png */,
 				CE8E275E1747BDF600042641 /* libxml2.2.dylib */,
@@ -276,7 +302,6 @@
 				CEF99A901746E14400DC0598 /* UIKit.framework */,
 				CEF99A921746E14400DC0598 /* Foundation.framework */,
 				CEF99A941746E14400DC0598 /* CoreGraphics.framework */,
-				CEF99AB71746E14500DC0598 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -435,6 +460,13 @@
 				CEAFB0191747D68200C88250 /* Information.plist in Resources */,
 				CEAFB01B1747EDDA00C88250 /* header.png in Resources */,
 				CEAFB01D1747EF3900C88250 /* header1.png in Resources */,
+				CE9B46CC17484B03007DC93D /* camera.png in Resources */,
+				CE9B46CD17484B03007DC93D /* geoloc.png in Resources */,
+				CE9B46CE17484B03007DC93D /* ok.png in Resources */,
+				CE9B46D51748599C007DC93D /* camera1.png in Resources */,
+				CE9B46D61748599C007DC93D /* geoloc1.png in Resources */,
+				CE9B46D71748599C007DC93D /* ok1.png in Resources */,
+				CE9B46E0174892FD007DC93D /* MicrosCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +511,8 @@
 				CEAFB0131747CFA100C88250 /* AllData.m in Sources */,
 				CEAFB0171747D0CA00C88250 /* ReplyData.m in Sources */,
 				CEAFB0201747F95400C88250 /* CommunityViewController.m in Sources */,
+				CE9B46D117485074007DC93D /* TableNewsMicros.m in Sources */,
+				CE9B46DC1748636A007DC93D /* MicrosCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +640,7 @@
 					"\"$(SRCROOT)/obj-c/OAuthConsumer/build/Debug\"",
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/Debug\"",
 					"\"$(SRCROOT)/../OAuthConsumer/build/Debug\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";
@@ -616,6 +651,7 @@
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/OAuthConsumer.build/Debug/OAuthConsumer.build/Objects-normal/x86_64\"",
 					"\"$(SRCROOT)/Gekklist/Twitter+OAuth/SAOAuthTwitterEngine\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = GeekList;
 				WRAPPER_EXTENSION = app;
@@ -632,6 +668,7 @@
 					"\"$(SRCROOT)/obj-c/OAuthConsumer/build/Debug\"",
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/Debug\"",
 					"\"$(SRCROOT)/../OAuthConsumer/build/Debug\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gekklist/GeekList-Prefix.pch";
@@ -642,6 +679,7 @@
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/OAuthConsumer.build/Debug/OAuthConsumer.build/Objects-normal/x86_64\"",
 					"\"$(SRCROOT)/Gekklist/Twitter+OAuth/SAOAuthTwitterEngine\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = GeekList;
 				WRAPPER_EXTENSION = app;

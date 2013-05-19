@@ -66,6 +66,12 @@
     marker.title = @"Sydney";
     marker.snippet = @"Australia";
     marker.map = mapView_;
+	
+	GMSMarker *marker2 = [[GMSMarker alloc] init];
+    marker2.position = CLLocationCoordinate2DMake(47.8, 2.21);
+    marker2.title = @"Hen";
+    marker2.snippet = @"Paul";
+    marker2.map = mapView_;
 }
 
 @end

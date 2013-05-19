@@ -9,12 +9,13 @@
 #import "AllData.h"
 
 @implementation AllData
-@synthesize sender=_sender;
+@synthesize senders=_senders;
 @synthesize photoURL=_photoURL;
 @synthesize  comment=_comment;
 @synthesize Coordinate=_Coordinate;
 @synthesize title=_title;
 @synthesize reply=_reply;
+@synthesize date=_date;
 
 -(id)init
 {
@@ -26,7 +27,7 @@
 -(id)initWithSender:(NSString *)Sender
 {
 	if ([self init]) {
-		_sender=[Sender copy];
+		_senders=[Sender copy];
 	}
 	return self;
 }
@@ -64,5 +65,12 @@
 -(NSUInteger)count
 {
 	return [_reply count];
+}
+-(id)initWithSender:(NSString *)Sender Title:(NSString *)Title Comment:(NSString *)Comment Coordinate:(CGPoint)Coordinate PhotoURL:(NSString *) PhotoURL Date:(NSString *)date
+{
+	if ([self initWithSender:Sender Title:Title Comment:Comment Coordinate:Coordinate PhotoURL:PhotoURL]) {
+		_date=[date copy];
+	}
+	return self;
 }
 @end

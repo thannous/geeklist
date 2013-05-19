@@ -13,7 +13,8 @@
 @property(nonatomic,copy)NSString * title;
 @property(nonatomic,copy)NSString * comment;
 @property(nonatomic,assign)CGPoint Coordinate;
-@property(nonatomic,copy)NSString * sender;
+@property(nonatomic,copy)NSString * senders;
+@property(nonatomic,copy)NSString * date;
 @property(nonatomic,readonly)NSMutableArray * reply;
 
 -(id)init;
@@ -22,6 +23,7 @@
 -(id)initWithSender:(NSString *)Sender Title:(NSString *)Title Comment:(NSString *) Comment;
 -(id)initWithSender:(NSString *)Sender Title:(NSString *)Title Comment:(NSString *)Comment Coordinate:(CGPoint)Coordinate;
 -(id)initWithSender:(NSString *)Sender Title:(NSString *)Title Comment:(NSString *)Comment Coordinate:(CGPoint)Coordinate PhotoURL:(NSString *) PhotoURL;
+-(id)initWithSender:(NSString *)Sender Title:(NSString *)Title Comment:(NSString *)Comment Coordinate:(CGPoint)Coordinate PhotoURL:(NSString *) PhotoURL Date:(NSString *)date;
 -(NSUInteger)count;
 
 @end

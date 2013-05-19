@@ -8,17 +8,27 @@
 
 #import <UIKit/UIKit.h>
 #import "DetailsViewController.h"
-#import "AllData.h"
+#import "TableNewsMicros.h"
+#import "MicrosCell.h"
 
-@interface MicrosControllernav : UITableViewController
+@interface MicrosControllernav : UIViewController <UITableViewDelegate,UITableViewDataSource,UITextViewDelegate>
 {
+	IBOutlet UIButton * camera;
+	IBOutlet UIButton * ok;
+	IBOutlet UIButton * geoloc;
+	IBOutlet UITextView * AddComment;
 	IBOutlet UITableView * tablevue;
 	DetailsViewController * controller;
+	IBOutlet UIImageView * portrait;
+	
+	
 	
 }
 @property (nonatomic,copy)NSMutableArray * datas;
-@property (nonatomic,copy)NSMutableArray * lesgens;
+@property (nonatomic,copy)AllData * donneePerso;
 @property (readonly)int state;
--(void)tapped:(id)sender;
--(void)getInfo;
+-(IBAction)camera:(id)sender;
+-(IBAction)ok:(id)sender;
+-(IBAction)geoloc:(id)sender;
+
 @end
