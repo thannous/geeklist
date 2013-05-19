@@ -13,6 +13,7 @@
 @synthesize titre;
 @synthesize commentaire;
 @synthesize datas,ButtonNumber;
+
 -(void)viewDidLoad
 {
 	[super viewDidLoad];
@@ -30,7 +31,22 @@
 	[portrait setImage:img];
 	textField.returnKeyType = UIReturnKeyDone;
 	NSLog(@"%@",[self datas]);
+	UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(touch)];
+	[recognizer setNumberOfTapsRequired:1];
+	[recognizer setNumberOfTouchesRequired:1];
+	[scrollView addGestureRecognizer:recognizer];
+	etat=YES;
 	
+}
+-(void)touch
+{
+	if(!etat){
+		[textField resignFirstResponder];
+		//[UIView commitAnimations];
+		//[scrollView scrollsToTop];
+		//scrollView.contentOffset = CGPointMake(0,-textField.frame.origin.y+textField.frame.size.height+10);
+		//NSLog(@"%lf\n",textField.frame.origin.y);
+	}
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -41,7 +57,6 @@
 }
 - (void)viewWillAppear:(BOOL)animated
 {
-	
 	[super viewWillAppear:animated];
 	[[self navigationController] setNavigationBarHidden:NO animated:YES];
     // listen for keyboard hide/show notifications so we can properly adjust the table's height
@@ -62,6 +77,8 @@
     Micros.layer.borderColor=[[UIColor colorWithRed:0.60724314 green:0.57254902 blue:0.40784314 alpha:1]CGColor];
     Micros.layer.borderWidth= 1.0f;
 	Micros.layer.cornerRadius=6;
+	[self becomeFirstResponder];
+	
 	
 	
 }
@@ -69,6 +86,8 @@
 - (void)keyboardWillShow:(NSNotification *)aNotification
 {
 	// the keyboard is showing so resize the table's height
+	
+	if(etat){
 	CGRect keyboardRect = [[[aNotification userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];
     NSTimeInterval animationDuration =
 	[[[aNotification userInfo] objectForKey:UIKeyboardAnimationDurationUserInfoKey] doubleValue];
@@ -79,13 +98,16 @@
     self.view.frame = frame;
     [UIView commitAnimations];
 	[scrollView scrollsToTop];
+		NSLog(@"x:%lf\ty:%lf\n",scrollView.contentOffset.x,scrollView.contentOffset.y);
 	scrollView.contentOffset = CGPointMake(0,textField.frame.origin.y+textField.frame.size.height-keyboardRect.size.height+10);
 	NSLog(@"%lf\n",textField.frame.origin.y);
+		etat=NO;
+	}
 }
 - (void)keyboardWillHide:(NSNotification *)aNotification
 {
     // the keyboard is hiding reset the table's height
-	CGRect keyboardRect = [[[aNotification userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];
+	/*CGRect keyboardRect = [[[aNotification userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];
     NSTimeInterval animationDuration =
 	[[[aNotification userInfo] objectForKey:UIKeyboardAnimationDurationUserInfoKey] doubleValue];
     CGRect frame = self.view.frame;
@@ -93,8 +115,13 @@
     [UIView beginAnimations:@"ResizeForKeyboard" context:nil];
     [UIView setAnimationDuration:animationDuration];
     self.view.frame = frame;
-    [UIView commitAnimations];
-	[scrollView scrollsToTop];
+    [UIView commitAnimations];*/
+	//[scrollView scrollsToTop];
+	CGPoint bottomOffset = CGPointMake(0, 0);
+	scrollView.frame=CGRectMake(0, 0, 320, 455);
+	[textField resignFirstResponder];
+	[scrollView setContentOffset:bottomOffset animated:YES];
+
 	
 }
 - (void)viewDidDisappear:(BOOL)animated
@@ -113,17 +140,17 @@
     UITouch *touch = [[event allTouches] anyObject];
     if ([textField isFirstResponder] && [touch view] != textField) {
         [textField resignFirstResponder];
+		NSLog(@"fait");
     }
+	else
+	{
+		NSLog(@"nofait");
+	}
     [super touchesBegan:touches withEvent:event];
 }
 -(void)useAllData
 {
-	NSLog(@"valeur récupéré :%d\n",[self ButtonNumber]);
-	NSLog(@"valeur récupéré :%@\n",[[datas objectAtIndex:[self ButtonNumber]]senders]);
-	[EmmeteurName setText:[[datas objectAtIndex:[self ButtonNumber]]senders]];
-	Nom.text=[[datas objectAtIndex:[self ButtonNumber]]senders];
-	Micros.text=[[datas objectAtIndex:[self ButtonNumber]]comment];
-	[Micros setText:@"gezgezg ezgezg  zegez ge zegezgzeg "];
+	
 }
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
 	
@@ -136,5 +163,50 @@
     }
 	
     return YES;
+}
+
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+	return 1;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+	
+	return [[[datas objectAtIndex:[self ButtonNumber]]reply] count]*2;
+}
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+	if([indexPath indexAtPosition:1]%2==0)
+	{
+		cell.backgroundColor = [UIColor colorWithRed:0.6627451 green:0.86247451 blue:0.49019608 alpha:1];
+	}
+    
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	if([indexPath indexAtPosition:1]%2==0)
+	{
+		UITableViewCell * cellTitre=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"Titre"];
+		
+		[cellTitre.textLabel setText:[[[[datas objectAtIndex:ButtonNumber]reply]objectAtIndex:([indexPath indexAtPosition:1])/2]sender] ];
+		
+		
+		[cellTitre.textLabel setBackgroundColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:1]];
+		[cellTitre.detailTextLabel setBackgroundColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:1]];
+		[cellTitre setFrame:CGRectMake(0, 0, 320, 50)];
+		return cellTitre;
+	}
+	else{
+		UITableViewCell * cellDonnee=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Donnee"];
+		[cellDonnee setFrame:CGRectMake(0, 0, 320, 100)];
+		[cellDonnee.imageView setImage:[[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString: [[[[datas objectAtIndex:ButtonNumber]reply]objectAtIndex:([indexPath indexAtPosition:1])/2]photoURL]			]]]];
+		cellDonnee.textLabel.numberOfLines=4;
+		cellDonnee.textLabel.font=[UIFont fontWithName:@"Arial" size:14.0f];
+		[cellDonnee.textLabel setText:[[[[datas objectAtIndex:ButtonNumber]reply]objectAtIndex:([indexPath indexAtPosition:1])/2]comment]				];
+		
+		
+		return cellDonnee;
+	}
+	
 }
 @end

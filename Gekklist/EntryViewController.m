@@ -7,6 +7,7 @@
 //
 
 #import "EntryViewController.h"
+//#import "GeeklistManager.h"
 
 @implementation EntryViewController
 -(void)viewDidLoad
@@ -29,6 +30,8 @@
             //             delegate:self
           //      didFinishSelector:@selector(requestTokenTicket:didFinishWithData:)
         //          didFailSelector:@selector(requestTokenTicket:didFailWithError:)];
+	//GeeklistManager * manager=[[GeeklistManager alloc]init];
+	//[manager authorize];
 }
 
 -(IBAction)bouton:(id)sender

@@ -650,6 +650,10 @@
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/OAuthConsumer.build/Debug/OAuthConsumer.build/Objects-normal/i386\"",
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/OAuthConsumer.build/Debug/OAuthConsumer.build/Objects-normal/x86_64\"",
 					"\"$(SRCROOT)/Gekklist/Twitter+OAuth/SAOAuthTwitterEngine\"",
+					"\"$(SRCROOT)/../git/Geeklist-iOS-Library/GeeklistLib/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/GeeklistLib/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/GeeklistLib/build/GeeklistLib.build/Debug-iphoneos/GeeklistLib.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/GeeklistLib/build/GeeklistLib.build/Debug-iphoneos/GeeklistLib.build/Objects-normal/armv7s\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -678,6 +682,10 @@
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/OAuthConsumer.build/Debug/OAuthConsumer.build/Objects-normal/i386\"",
 					"\"$(SRCROOT)/Gekklist/OAuthConsumer/build/OAuthConsumer.build/Debug/OAuthConsumer.build/Objects-normal/x86_64\"",
 					"\"$(SRCROOT)/Gekklist/Twitter+OAuth/SAOAuthTwitterEngine\"",
+					"\"$(SRCROOT)/../git/Geeklist-iOS-Library/GeeklistLib/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/GeeklistLib/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/GeeklistLib/build/GeeklistLib.build/Debug-iphoneos/GeeklistLib.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/GeeklistLib/build/GeeklistLib.build/Debug-iphoneos/GeeklistLib.build/Objects-normal/armv7s\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";

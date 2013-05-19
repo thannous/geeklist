@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 
-@interface DetailsViewController : UIViewController <UITextFieldDelegate,UIScrollViewDelegate,UITextViewDelegate>
+@interface DetailsViewController : UIViewController <UITextFieldDelegate,UIScrollViewDelegate,UITextViewDelegate,UITableViewDelegate,UITableViewDataSource>
 {
 	IBOutlet UIScrollView * scrollView;
 	IBOutlet UITextField * textField;
@@ -19,6 +19,7 @@
 	IBOutlet UILabel * Nom;
 	IBOutlet UIImageView * portrait;
 	IBOutlet UILabel * EmmeteurName;
+	BOOL etat;
 	
 }
 @property (nonatomic,assign)NSMutableArray * datas;
@@ -27,4 +28,5 @@
 @property (retain,readwrite)NSString * commentaire;
 @property (retain,readwrite)UIImage * image;
 -(void)useAllData;
+-(void)touch;
 @end

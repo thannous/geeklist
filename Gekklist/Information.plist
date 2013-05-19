@@ -138,27 +138,27 @@
 		<array>
 			<dict>
 				<key>Sender</key>
-				<string></string>
+				<string>Lime</string>
 				<key>Comment</key>
-				<string></string>
+				<string>pk?</string>
 				<key>PhotoURL</key>
-				<string></string>
+				<string>http://lorempixel.com/60/60/</string>
 			</dict>
 			<dict>
 				<key>Sender</key>
-				<string></string>
+				<string>Steeve</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Mais parce que !!!!</string>
 				<key>PhotoURL</key>
-				<string></string>
+				<string>http://lorempixel.com/60/60/</string>
 			</dict>
 			<dict>
 				<key>Sender</key>
-				<string></string>
+				<string>Red</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Sa va Saigner !!!!!</string>
 				<key>PhotoURL</key>
-				<string></string>
+				<string>http://lorempixel.com/60/60/</string>
 			</dict>
 		</array>
 		<key>PhotoURL</key>
